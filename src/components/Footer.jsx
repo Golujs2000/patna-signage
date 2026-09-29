@@ -24,12 +24,12 @@ export default function Footer() {
               <span>{companyInfo.tagline}</span>
             </div>
             <p className="text-xs leading-relaxed text-slate-300">
-              Bihar’s premier sign board manufacturing facility. In-house CNC cutting, fiber laser metal fabrication, automatic channel letter bending, and IP67 waterproof LED illumination.
+              Bihar’s premier signage & printing facility since 1990. In-house CNC routing, 1.5kW fiber laser cutting, HP Latex 570 printing, and automatic channel letter bending.
             </p>
             <div className="flex items-center gap-3 pt-2">
               <div className="p-2 rounded-lg bg-white/5 border border-white/10 text-center">
                 <div className="text-white font-bold text-sm">{companyInfo.experienceYears}</div>
-                <div className="text-[10px] text-slate-400">Years Exp.</div>
+                <div className="text-[10px] text-slate-400">Years (1990)</div>
               </div>
               <div className="p-2 rounded-lg bg-white/5 border border-white/10 text-center">
                 <div className="text-brand-red font-bold text-sm">{companyInfo.projectsCompleted}</div>
@@ -122,8 +122,8 @@ export default function Footer() {
             <div className="mt-5 p-3 rounded-lg bg-white/5 border border-white/10 flex items-center gap-3">
               <ShieldCheck className="w-6 h-6 text-brand-gold shrink-0" />
               <div className="text-[11px] text-slate-300">
-                <span className="text-white font-semibold block">GST Registered Facility</span>
-                Official commercial billing & verified warranties
+                <span className="text-white font-semibold block">{companyInfo.gstStatus}</span>
+                GSTIN: {companyInfo.gstNumber} • B2B Invoicing
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ import {
 } from 'lucide-react';
 import { 
   companyInfo, servicesData, signageTypes, portfolioProjects, 
-  machineryData, testimonials, faqs 
+  machineryData, testimonials, faqs, trustedClients 
 } from '../data/signageData';
 import QuoteForm from '../components/QuoteForm';
 import SEO from '../components/SEO';
@@ -41,10 +41,10 @@ export default function Home() {
     <div className="space-y-20 pb-16">
       {/* Dynamic SEO Meta & FAQ Schema */}
       <SEO 
-        title="#1 Sign Board Manufacturer in Patna, Bihar"
-        description="Direct factory sign board manufacturer in Patna, Bihar. 15+ years experience in LED 3D acrylic letters, ACP cladding, glow sign boards, titanium steel letters, and retail shopfront facades. 5-year warranty, in-house CNC factory."
+        title="#1 Sign Board Manufacturer in Patna, Bihar | Est. 1990"
+        description="Direct factory sign board manufacturer in Patna, Bihar established in 1990. 34+ years experience in LED 3D acrylic letters, ACP cladding, glow sign boards, titanium steel letters, and retail shopfront facades. 5-year warranty, in-house CNC & laser factory."
         canonicalUrl="/"
-        keywords="sign board manufacturer in patna, led sign board patna, 3d acrylic letters patna, acp sign board bihar, glow sign board maker patna, neon sign patna, stainless steel letters patna, signage company bihar"
+        keywords="sign board manufacturer in patna, established 1990 signage patna, led sign board patna, 3d acrylic letters patna, acp sign board bihar, glow sign board maker patna, neon sign patna, stainless steel letters patna, signage company bihar"
         schema={faqSchema}
       />
       
@@ -67,7 +67,8 @@ export default function Home() {
             
             {/* Tagline Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-red-50 border border-brand-red/30 text-brand-red text-xs font-bold tracking-wider uppercase shadow-sm">
-              <span className="text-brand-red font-extrabold">{companyInfo.tagline}</span>
+              <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
+              <span className="text-brand-red font-extrabold">{companyInfo.experienceBadge}</span>
             </div>
 
             {/* Main Headline (H1 for Technical SEO) */}
@@ -77,7 +78,7 @@ export default function Home() {
 
             {/* Subtext */}
             <p className="text-slate-700 text-sm sm:text-base md:text-lg leading-relaxed font-medium">
-              Direct factory pricing with in-house CNC routers, fiber laser metal cutting, and genuine Samsung IP67 waterproof LED modules. Elevate your brand visibility across Bihar with 5-year guaranteed durability.
+              Direct factory pricing with in-house CNC routers, 1.5kW fiber laser cutting, and genuine Samsung IP67 waterproof LED modules. 34+ years of craftsmanship with 5-year guaranteed durability.
             </p>
 
             {/* Action Buttons */}
@@ -132,22 +133,62 @@ export default function Home() {
           <div className="p-4 border-r border-slate-100 last:border-r-0">
             <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">{companyInfo.experienceYears}</div>
             <div className="text-xs text-brand-red font-bold mt-1">Years Manufacturing</div>
-            <p className="text-[11px] text-slate-500 mt-1 font-medium">Dedicated workshop in Patna</p>
+            <p className="text-[11px] text-slate-500 mt-1 font-medium">Est. 1990 in Patna, Bihar</p>
           </div>
           <div className="p-4 border-r border-slate-100 last:border-r-0">
             <div className="text-2xl sm:text-3xl font-extrabold text-brand-red">{companyInfo.projectsCompleted}</div>
             <div className="text-xs text-slate-800 font-bold mt-1">Installed Sign Boards</div>
-            <p className="text-[11px] text-slate-500 mt-1 font-medium">Across Bihar & Jharkhand</p>
+            <p className="text-[11px] text-slate-500 mt-1 font-medium">Across Bihar & Central India</p>
           </div>
           <div className="p-4 border-r border-slate-100 last:border-r-0">
-            <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">100% In-House</div>
-            <div className="text-xs text-brand-gold font-bold mt-1">CNC & Laser Factory</div>
-            <p className="text-[11px] text-slate-500 mt-1 font-medium">Zero third-party outsourcing</p>
+            <div className="text-2xl sm:text-3xl font-extrabold text-slate-900">40+</div>
+            <div className="text-xs text-brand-gold font-bold mt-1">Skilled Fabricators</div>
+            <p className="text-[11px] text-slate-500 mt-1 font-medium">Plus 12 specialized staff</p>
           </div>
           <div className="p-4">
             <div className="text-2xl sm:text-3xl font-extrabold text-emerald-600">{companyInfo.warrantyYears}</div>
             <div className="text-xs text-slate-800 font-bold mt-1">Comprehensive Warranty</div>
             <p className="text-[11px] text-slate-500 mt-1 font-medium">Samsung LEDs & transformers</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CORPORATE & HEALTHCARE CLIENT TRUST MARQUEE */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-slate-50 border border-slate-200/90 rounded-2xl p-6 sm:p-8">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <div>
+              <span className="text-[11px] font-bold text-brand-red uppercase tracking-wider block">
+                Trusted Corporate Clientele
+              </span>
+              <h3 className="text-lg sm:text-xl font-extrabold text-slate-900">
+                Worked With India’s Top Public & Private Brands
+              </h3>
+            </div>
+            <div className="flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1.5 rounded-full border border-emerald-200 self-start sm:self-auto">
+              <ShieldCheck className="w-4 h-4" />
+              <span>GST Registered • Official B2B Tax Invoicing</span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
+            {trustedClients.slice(0, 12).map((client, idx) => (
+              <div 
+                key={idx}
+                className="bg-white border border-slate-200 hover:border-brand-red/40 rounded-xl p-3 text-center transition-all shadow-sm hover:shadow"
+              >
+                <div className="text-xs font-bold text-slate-900 line-clamp-1">{client.name}</div>
+                <div className="text-[10px] text-slate-500 mt-0.5 line-clamp-1">{client.category}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-4 pt-3 border-t border-slate-200/80 flex flex-wrap items-center justify-between text-xs text-slate-500 gap-2">
+            <span>Also serving: TVS Motor, Havells, Reliance Cement, Coca-Cola, Swaraj Tractors, Kotak Life Insurance, Mufti, Stori</span>
+            <Link to="/about" className="text-brand-red font-bold hover:underline inline-flex items-center gap-1">
+              <span>View Client Portfolio</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </section>

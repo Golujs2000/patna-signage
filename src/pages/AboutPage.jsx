@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
   Factory, ShieldCheck, Award, Cpu, CheckCircle2, 
-  MapPin, Phone, Sparkles, ArrowRight 
+  MapPin, Phone, Sparkles, ArrowRight, Users, Printer, Building2
 } from 'lucide-react';
-import { companyInfo, machineryData } from '../data/signageData';
+import { companyInfo, machineryData, trustedClients } from '../data/signageData';
 import SEO from '../components/SEO';
 
 export default function AboutPage() {
@@ -15,8 +15,8 @@ export default function AboutPage() {
         "@type": "AboutPage",
         "@id": "https://patnasignage.com/about#webpage",
         "url": "https://patnasignage.com/about",
-        "name": "About Patna Signage - Direct Factory Sign Board Manufacturer",
-        "description": "Learn about Bihar's premier signage manufacturing facility. 15+ years of in-house CNC routers, laser metal cutters, and automated letter benders.",
+        "name": "About Patna Signage - Established 1990 Sign Board & Fabrication Facility",
+        "description": "Learn about Bihar's premier signage manufacturing facility. Established in 1990 with 34+ years experience, 40+ skilled craftsmen, heavy CNC routers, fiber laser cutters, and HP Latex printers.",
         "breadcrumb": {
           "@type": "BreadcrumbList",
           "itemListElement": [
@@ -28,8 +28,10 @@ export default function AboutPage() {
       {
         "@type": "Organization",
         "name": "Patna Signage",
+        "legalName": "Patna Signage / Kashish Ad",
         "url": "https://patnasignage.com",
         "logo": "https://patnasignage.com/assets/patna-signage-logo.svg",
+        "foundingDate": "1990",
         "foundingLocation": "Patna, Bihar",
         "address": {
           "@type": "PostalAddress",
@@ -46,10 +48,10 @@ export default function AboutPage() {
   return (
     <div className="space-y-16 pb-20">
       <SEO
-        title="About Patna Signage | In-House CNC & Laser Factory in Patna"
-        description="Discover Bihar's premier signage fabrication workshop. 15+ years experience, heavy CNC routers, fiber laser cutters, SS 304 stainless steel standards."
+        title="About Patna Signage | Established 1990 | CNC & Laser Factory in Patna"
+        description="Discover Bihar's premier signage fabrication workshop established in 1990. 34+ years experience, 40+ skilled workforce, heavy CNC routers, 1.5kW fiber laser cutters, HP Latex 570, and trusted by Fortune 500 brands."
         canonicalUrl="/about"
-        keywords="about patna signage, signage factory bihar, sign board workshop patna, cnc cutting bihar, laser cutting sign board patna"
+        keywords="about patna signage, kashish ad patna, signage factory bihar, established 1990 sign board patna, cnc cutting bihar, laser cutting sign board patna, capital tower fraser road signage"
         schema={aboutSchema}
       />
       
@@ -58,13 +60,13 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 border border-brand-red/20 text-brand-red text-xs font-bold uppercase mb-4">
             <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-            <span>Manufacturing Facility in Patna</span>
+            <span>Established 1990 • 34+ Years of Industry Excellence</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
             About Patna Signage
           </h1>
           <p className="text-slate-600 text-sm sm:text-base mt-4 leading-relaxed font-normal">
-            Founded with a commitment to bring world-class architectural signage and retail branding to Bihar, Patna Signage operates a full-scale in-house industrial manufacturing workshop with zero reliance on outside brokers.
+            Pioneering the signage and printing industry in Patna since 1990. Operating alongside sister concern <strong>Kashish Ad</strong> at Capital Tower, Fraser Road, we provide complete in-house fabrication, architectural cladding, and commercial branding across Bihar, Jharkhand, and Central India.
           </p>
         </div>
       </section>
@@ -73,29 +75,35 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-5">
-            <span className="text-xs font-bold text-brand-red uppercase tracking-wider">
-              15+ Years of Engineering Craftsmanship
+            <span className="text-xs font-bold text-brand-red uppercase tracking-wider flex items-center gap-2">
+              <Award className="w-4 h-4 text-brand-gold" />
+              <span>34+ Years of Engineering Craftsmanship</span>
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 leading-tight">
-              Bihar's Direct Factory Sign Board Manufacturer
+              Bihar's Most Trusted Sign Board Manufacturer Since 1990
             </h2>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-              When business owners in Patna order signboards through middlemen or advertising agencies, their orders are often sub-contracted to third-party fabrication shops in other states or fabricated using substandard extruded plastics and unbranded low-grade LEDs that burn out in a few months.
+              Founded in 1990 in Patna, our enterprise was established with a singular vision: to eliminate third-party broker markups and substandard materials by building an authentic, industrial-grade signage manufacturing infrastructure right in the heart of Bihar.
             </p>
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
-              <strong className="text-slate-900">Patna Signage changed the equation.</strong> We invested in heavy industrial CNC machinery, computerized laser cutters, and automatic letter benders right here in Patna. Every single board is precision engineered, water-tested, and quality checked under one roof.
+              Over the past three decades, we have continuously scaled our production capacity. Today, our dedicated facility employs <strong>nearly 40 skilled fabrication artisans and 12 specialized staff members</strong>, backed by computerized CNC routers, 1.5 kW fiber laser metal cutters, HP Latex 570 high-resolution printers, UV flatbeds, and robotic channel letter benders.
             </p>
 
-            <div className="grid grid-cols-2 gap-4 pt-2">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 pt-2">
               <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-sm">
-                <div className="text-2xl font-extrabold text-brand-red">{companyInfo.experienceYears}</div>
-                <div className="text-xs text-slate-900 font-bold">Years Experience</div>
-                <p className="text-[11px] text-slate-500 mt-1">Deep mastery of Bihar climate durability</p>
+                <div className="text-2xl font-extrabold text-brand-red">1990</div>
+                <div className="text-xs text-slate-900 font-bold">Founded Year</div>
+                <p className="text-[11px] text-slate-500 mt-1">34+ continuous years</p>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-sm">
-                <div className="text-2xl font-extrabold text-slate-900">{companyInfo.projectsCompleted}</div>
-                <div className="text-xs text-slate-900 font-bold">Successful Signboards</div>
-                <p className="text-[11px] text-slate-500 mt-1">Retailers, hospitals, malls, schools</p>
+                <div className="text-2xl font-extrabold text-slate-900">40+</div>
+                <div className="text-xs text-slate-900 font-bold">Skilled Labors</div>
+                <p className="text-[11px] text-slate-500 mt-1">Plus 12 expert staff</p>
+              </div>
+              <div className="p-4 rounded-xl bg-white border border-slate-200/90 shadow-sm col-span-2 sm:col-span-1">
+                <div className="text-2xl font-extrabold text-brand-gold">{companyInfo.projectsCompleted}</div>
+                <div className="text-xs text-slate-900 font-bold">Completed Projects</div>
+                <p className="text-[11px] text-slate-500 mt-1">Across Central India</p>
               </div>
             </div>
           </div>
@@ -107,13 +115,18 @@ export default function AboutPage() {
                 alt="Patna Signage Workshop Exterior Facility"
                 className="w-full h-[400px] object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-              <div className="absolute bottom-6 left-6 right-6">
-                <span className="px-3 py-1 rounded-full bg-brand-red text-white text-[11px] font-bold shadow-md">
-                  Patna Workshop Facility
-                </span>
-                <p className="text-xs text-slate-100 mt-2">
-                  Visit our workshop anytime for live demonstrations of laser cutting and sample inspections.
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/30 to-transparent"></div>
+              <div className="absolute bottom-6 left-6 right-6 text-white space-y-2">
+                <div className="flex items-center gap-2">
+                  <span className="px-3 py-1 rounded-full bg-brand-red text-white text-[11px] font-bold shadow-md">
+                    Capital Tower, Fraser Road
+                  </span>
+                  <span className="px-2.5 py-1 rounded-full bg-white/20 backdrop-blur-md text-slate-200 text-[11px] font-medium">
+                    GST Registered Facility
+                  </span>
+                </div>
+                <p className="text-xs text-slate-200 leading-relaxed">
+                  Visit our Fraser Road facility for live demonstrations of laser cutting, sample material inspection, and technical engineering consultations.
                 </p>
               </div>
             </div>
@@ -121,21 +134,22 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Machinery Tour */}
+      {/* Machinery Tour - Full 6 Machines */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-10">
-          <span className="text-xs font-bold text-brand-red uppercase tracking-wider">
-            Industrial Equipment
+          <span className="text-xs font-bold text-brand-red uppercase tracking-wider flex items-center justify-center gap-1.5">
+            <Cpu className="w-4 h-4 text-brand-gold" />
+            <span>In-House Industrial Infrastructure</span>
           </span>
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
-            State-of-the-Art In-House Machinery
+            Advanced In-House Production Machinery
           </h2>
           <p className="text-xs text-slate-500 mt-2">
-            Eliminating human error with automated computer numeric control.
+            No outside brokers or third-party outsourcing. Every cut, weld, bend, and print is executed in our own facility.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {machineryData.map((machine, idx) => (
             <div key={idx} className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
               <div>
@@ -145,7 +159,7 @@ export default function AboutPage() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6 space-y-2">
-                  <span className="text-[10px] font-bold text-brand-red uppercase tracking-wider">
+                  <span className="text-[10px] font-bold text-brand-red uppercase tracking-wider px-2 py-0.5 rounded bg-red-50 inline-block">
                     {machine.stat}
                   </span>
                   <h3 className="text-base font-bold text-slate-900">{machine.title}</h3>
@@ -154,6 +168,46 @@ export default function AboutPage() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Enterprise & Corporate Clients Roster */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-white border border-slate-200/90 rounded-3xl p-8 sm:p-12 shadow-lg">
+          <div className="text-center max-w-2xl mx-auto mb-8">
+            <span className="text-xs font-bold text-brand-red uppercase tracking-wider">
+              Proven Track Record
+            </span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
+              Trusted by India's Top Brands & Public Sector Leaders
+            </h2>
+            <p className="text-xs text-slate-500 mt-2">
+              From Fortune 500 conglomerates to national healthcare networks, we deliver turnkey branding with standard compliance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+            {trustedClients.map((client, idx) => (
+              <div 
+                key={idx} 
+                className="p-3.5 rounded-xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-brand-red/40 transition-all text-center flex flex-col justify-center items-center shadow-sm"
+              >
+                <div className="text-xs font-bold text-slate-900 line-clamp-1">{client.name}</div>
+                <div className="text-[10px] text-slate-500 mt-0.5 line-clamp-1">{client.category}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-600">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
+              <span><strong>GST-Compliant B2B Billing:</strong> Official tax invoices with GSTIN provided for all corporate clients.</span>
+            </div>
+            <Link to="/contact" className="text-brand-red font-bold hover:underline flex items-center gap-1 shrink-0">
+              <span>Partner With Us</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -200,9 +254,9 @@ export default function AboutPage() {
             <span className="text-xs font-bold text-brand-red uppercase tracking-wider">
               Visit Our Patna Facility
             </span>
-            <h3 className="text-2xl font-extrabold text-slate-900">Looking for a Trusted Signage Partner?</h3>
+            <h3 className="text-2xl font-extrabold text-slate-900">Looking for a Trusted Signage & Print Partner?</h3>
             <p className="text-xs sm:text-sm text-slate-600 max-w-xl leading-relaxed">
-              Drop by our office on Fraser Road near Canara Bank (B1 Capital Tower) to inspect sample boards and talk with our fabrication masters in person.
+              Drop by our facility on Fraser Road near Canara Bank (B1 & A-6/B-16 Capital Tower) to inspect live machinery, explore product displays, and plan your project with our master craftsmen.
             </p>
           </div>
           <div className="flex items-center gap-3 shrink-0">

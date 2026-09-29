@@ -7,7 +7,7 @@ import SEO from '../components/SEO';
 export default function ProjectsPage() {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'LED & Facade', 'SS 3D Letters', 'ACP Signage', 'Retail Facade', 'Corporate', 'Pylon & Totem'];
+  const categories = ['All', 'LED & Facade', 'SS 3D Letters', 'ACP Signage', 'Retail Facade', 'Corporate', 'Pylon & Totem', 'Display & POS'];
 
   const filteredProjects = portfolioProjects.filter((p) => {
     if (activeCategory === 'All') return true;

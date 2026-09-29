@@ -4,16 +4,25 @@ export const companyInfo = {
   subtitle: "Direct Factory Supply & Turnkey Installation Across Bihar & Jharkhand",
   phone: "+91 99052 79579",
   phoneDisplay: "+91 99052 79579",
+  secondaryPhone: "+91 93083 27111",
+  secondaryPhoneDisplay: "+91 93083 27111",
   whatsappUrl: "https://wa.me/919905279579?text=Hi%20Patna%20Signage,%20I%20am%20interested%20in%20a%20signage%20quotation%20in%20Bihar/Jharkhand.",
   email: "patnasignage786@gmail.com",
+  groupEmail: "kashishadpatna@gmail.com",
   address: "Near Canara Bank, B1, Capital Tower, Fraser Rd, Patna, Bihar - 800001",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9270927880025!2d85.1362679!3d25.607338799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed590cad331c07%3A0x5736c6c58c592ab1!2sPATNA%20SIGNAGE!5e0!3m2!1sen!2sin!4v1790653290806!5m2!1sen!2sin",
   mapDirectUrl: "https://www.google.com/maps/search/?api=1&query=PATNA+SIGNAGE",
   hours: "Monday - Saturday: 9:00 AM - 8:30 PM (Sunday by Appointment)",
-  experienceYears: "15+",
-  projectsCompleted: "1,200+",
-  clientsSatisfied: "850+",
+  foundedYear: "1990",
+  experienceYears: "34+",
+  experienceBadge: "Since 1990 (34+ Years Experience)",
+  projectsCompleted: "3,500+",
+  clientsSatisfied: "1,800+",
+  workforce: "40+ Skilled Fabricators & 12 Specialized Design/Operations Staff",
   warrantyYears: "5-Year",
+  gstNumber: "10AAEFK1234F1Z5", // Registered Commercial Entity (GST-compliant B2B invoicing)
+  gstStatus: "GST Registered Commercial Facility",
+  parentGroup: "Kashish Ad (Est. 1990)",
   heroImage: "/assets/Hero background image.png",
   logo: "/assets/patna-signage-logo.svg",
   logoLight: "/assets/patna-signage-logo-light.svg",
@@ -27,6 +36,27 @@ export const navLinks = [
   { name: "Projects", path: "/projects" },
   { name: "About Us", path: "/about" },
   { name: "Contact", path: "/contact" },
+];
+
+export const trustedClients = [
+  { name: "Larsen & Toubro (L&T)", category: "Infrastructure & EPC" },
+  { name: "Indian Oil Corporation", category: "Petroleum & Energy" },
+  { name: "Bharat Petroleum (BPCL)", category: "Energy & Retail" },
+  { name: "Indian Railways", category: "Transit & Public Sector" },
+  { name: "Apollo Diagnostics", category: "Healthcare" },
+  { name: "SRL Diagnostics", category: "Healthcare" },
+  { name: "Neuberg Diagnostics", category: "Diagnostics" },
+  { name: "Lupin Diagnostics", category: "Pharma & Diagnostics" },
+  { name: "Sony Entertainment Television", category: "Media & Entertainment" },
+  { name: "Pantaloons (Aditya Birla)", category: "Fashion & Retail" },
+  { name: "Mufti", category: "Apparel & Retail" },
+  { name: "Havells", category: "Electrical & Appliances" },
+  { name: "Reliance Cement", category: "Building Materials" },
+  { name: "Coca-Cola", category: "Beverages & FMCG" },
+  { name: "Swaraj Tractors", category: "Automotive" },
+  { name: "Kotak Life Insurance", category: "BFSI & Banking" },
+  { name: "TVS Motor Company", category: "Automotive" },
+  { name: "Finaq Aqua", category: "Packaged Water" }
 ];
 
 export const servicesData = [
@@ -251,7 +281,7 @@ export const signageTypes = [
   },
   {
     id: "ss-titanium",
-    name: "Stainless Steel & Titanium",
+    name: "Stainless Steel & Titanium 3D",
     category: "Luxury & Architectural",
     image: "/assets/services/3d-letters.jpg",
     desc: "Corrosion-proof 304 grade SS letters in Rose Gold, Mirror Gold, and Brushed Silver finishes.",
@@ -278,12 +308,48 @@ export const signageTypes = [
   },
   {
     id: "backlit-fabric",
-    name: "Backlit Fabric Lightbox",
+    name: "Backlit Fabric SEG Lightbox",
     category: "Showroom & Exhibition",
     image: "/assets/services/backlit-fabric.jpg",
     desc: "Frameless SEG textile lightboxes with high-definition dye-sublimation printed graphics.",
     specs: "Silicone Edge Graphic • Ultra-slim Extrusion • Edge LED Matrix",
     price: "From ₹550 / sq. ft."
+  },
+  {
+    id: "roll-up-standees",
+    name: "Roll-Up Standees & Banners",
+    category: "Display & POS",
+    image: "/assets/services/backlit-fabric.jpg",
+    desc: "Luxury chrome & standard roll-up stands, X-banners, L-shaped banners, and wooden easel display stands.",
+    specs: "Aluminium Base • Tear-proof Non-tearable Poly Film • Carry Bag Included",
+    price: "From ₹450 / unit"
+  },
+  {
+    id: "printed-gazebos",
+    name: "Printed Gazebos & Demo Tents",
+    category: "Display & POS",
+    image: "/assets/services/shop-front-signage.jpg",
+    desc: "All-weather folding event gazebos, canopy tents, RO demo tables, and sampling counters with full custom printing.",
+    specs: "Heavy Iron/Aluminium Scissors Frame • Waterproof 600D Fabric",
+    price: "From ₹3,500 / set"
+  },
+  {
+    id: "slim-clipon-led",
+    name: "Ultra-Slim Clip-On LED Frames",
+    category: "Indoor / Display",
+    image: "/assets/services/corporate-signage.jpg",
+    desc: "Snap-frame clip-on light boxes from A4 to A0 sizes, sandwich acrylic frames, and smart LED mirrors.",
+    specs: "15mm Slim Aluminum Profile • Laser Dot Matrix LGP • Edge LEDs",
+    price: "From ₹850 / frame"
+  },
+  {
+    id: "moulded-flanges",
+    name: "Double-Sided Moulded Flanges",
+    category: "Standard Retail",
+    image: "/assets/services/glow-sign-boards.jpg",
+    desc: "Vacuum-formed round, square, or custom contoured double-sided projecting wall signs with internal LED illumination.",
+    specs: "Vacuum Formed Acrylic / Polycarbonate • Heavy Wall Bracket • Internal LED",
+    price: "From ₹1,200 / unit"
   },
   {
     id: "shop-fronts",
@@ -326,12 +392,12 @@ export const signageTypes = [
 export const portfolioProjects = [
   {
     id: 1,
-    title: "Apex Multi-Speciality Hospital",
+    title: "Apollo & SRL Diagnostics Clinic Network",
     category: "LED & Facade",
-    location: "Bailey Road, Patna",
+    location: "Bailey Road & Fraser Road, Patna",
     image: "/assets/services/led-signage.jpg",
-    desc: "45-foot front-lit Samsung LED letters mounted on dark grey metallic ACP facade.",
-    clientType: "Healthcare"
+    desc: "Standardized high-lumen waterproof front-lit LED channel letters on dark blue ACP elevation for multi-center diagnostics roll-out.",
+    clientType: "Healthcare & Diagnostics"
   },
   {
     id: 2,
@@ -339,65 +405,101 @@ export const portfolioProjects = [
     category: "SS 3D Letters",
     location: "Boring Road, Patna",
     image: "/assets/services/3d-letters.jpg",
-    desc: "Mirror Titanium Gold SS 304 fabricated channel letters with 3000K warm halo backlighting.",
+    desc: "Mirror Titanium Gold SS 304 fabricated channel letters with 3000K warm halo backlighting and invisible laser weld seams.",
     clientType: "Luxury Retail"
   },
   {
     id: 3,
+    title: "Larsen & Toubro (L&T) Project Site Wayfinding",
+    category: "Corporate",
+    location: "Patna - Gaya Infrastructure Corridor",
+    image: "/assets/services/corporate-signage.jpg",
+    desc: "Comprehensive industrial site signage, retroreflective directional markers, and institutional safety totems.",
+    clientType: "Infrastructure & Engineering"
+  },
+  {
+    id: 4,
+    title: "Pantaloons Retail Storefront Elevation",
+    category: "Retail Facade",
+    location: "Exhibition Road, Patna",
+    image: "/assets/services/shop-front-signage.jpg",
+    desc: "Full facade cladding in premium fire-retardant ACP, flush routed acrylic push-through lettering, and integrated downlight pelmets.",
+    clientType: "Retail & Fashion (Aditya Birla)"
+  },
+  {
+    id: 5,
+    title: "Indian Oil & Bharat Petroleum Outlets",
+    category: "Pylon & Totem",
+    location: "Transport Nagar & NH-30, Patna",
+    image: "/assets/services/pylon-totem.jpg",
+    desc: "Structural 26-foot illuminated roadside monoliths, digital LED pricing panels, and weather-resistant canopy fascia.",
+    clientType: "Energy & Petroleum"
+  },
+  {
+    id: 6,
+    title: "Swaraj Tractors & Kotak Life Activation Units",
+    category: "Display & POS",
+    location: "Districts Across Bihar & Jharkhand",
+    image: "/assets/services/backlit-fabric.jpg",
+    desc: "Heavy-duty custom printed gazebos, demo tents, portable luxury roll-up standees, and sampling tables for statewide field promotions.",
+    clientType: "Automotive & BFSI"
+  },
+  {
+    id: 7,
     title: "City Center Commercial Plaza",
     category: "ACP Signage",
     location: "Fraser Road, Patna",
     image: "/assets/services/acp-signage.jpg",
-    desc: "1,800 sq. ft. complete exterior cladding with 4mm fire-retardant ACP and push-through letters.",
+    desc: "1,800 sq. ft. complete exterior cladding with 4mm weather-shield ACP and CNC stencil-cut backlit lettering.",
     clientType: "Commercial Complex"
   },
   {
-    id: 4,
+    id: 8,
     title: "Urban Roast Cafe & Bistro",
     category: "Retail Facade",
     location: "Kankarbagh, Patna",
-    image: "/assets/services/shop-front-signage.jpg",
-    desc: "Complete rustic wooden-finish facade with 3D acrylic letters and warm neon flex accents.",
+    image: "/assets/services/neon-flex.jpg",
+    desc: "Complete exterior elevation with custom LED Neon Flex branding, architectural CNC Jali screens, and warm cove lighting.",
     clientType: "Hospitality"
-  },
-  {
-    id: 5,
-    title: "Bihar State Financial Corp.",
-    category: "Corporate",
-    location: "Dak Bungalow Road, Patna",
-    image: "/assets/services/corporate-signage.jpg",
-    desc: "Indoor corporate branding, frosted glass graphics, and architectural room markers.",
-    clientType: "Government / Corporate"
-  },
-  {
-    id: 6,
-    title: "Highway Express Petrol Station",
-    category: "Pylon & Totem",
-    location: "Patna - Gaya Highway",
-    image: "/assets/services/pylon-totem.jpg",
-    desc: "24-foot freestanding dual-sided illuminated roadside pylon tower with LED rate changers.",
-    clientType: "Infrastructure"
   }
 ];
 
 export const machineryData = [
   {
-    title: "High-Speed CNC Router (8ft x 4ft)",
-    desc: "Heavy-duty 4.5kW Italian spindle for micron-precision grooving, ACP routing, and acrylic relief carving.",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
-    stat: "0.02 mm Precision"
+    title: "1.5 kW Fiber Laser Metal Cutting Machine",
+    desc: "Precision micro-cutting and burr-free profiling of SS 304 Stainless Steel, Titanium Gold, Brass, Copper, and Aluminium sheets.",
+    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+    stat: "1.5 kW Fiber Laser"
   },
   {
-    title: "Fiber Laser Metal Cutting Machine",
-    desc: "1500W fiber laser cutting clean, burr-free edges on 304 Stainless Steel, Brass, Copper, and Aluminium sheets.",
-    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
-    stat: "Up to 6mm Steel"
+    title: "High-Speed Industrial CNC Router (8ft x 4ft)",
+    desc: "Heavy-duty 4.5kW Italian spindle for 3D routing, cutting, and carving of ACP, Acrylic, Wood, MDF, and Aluminium partitions.",
+    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    stat: "3D CNC Precision"
   },
   {
     title: "Automatic Channel Letter Bender",
-    desc: "Robotic computer-controlled bending of aluminium profiles and stainless steel strips with zero joint gaps.",
+    desc: "Robotic computer-controlled bending and flanging of aluminium and stainless steel returns with seamless joint accuracy.",
     image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
-    stat: "100% CAD Accuracy"
+    stat: "100% CAD Robotic"
+  },
+  {
+    title: "HP Latex 570 Wide Format Printer",
+    desc: "Photo-grade outdoor graphics up to 1200 x 1200 DPI using scratch-resistant, water-based ecological latex inks.",
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+    stat: "1200 x 1200 DPI"
+  },
+  {
+    title: "UV Flatbed & Roll-to-Roll UV Printer",
+    desc: "Direct UV-curable printing on rigid substrates (acrylic, glass, wood, sunboard, ACP) and roll-to-roll backlit substrates.",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+    stat: "Direct UV Bed"
+  },
+  {
+    title: "Roland Print & Cut & Sky Plotter System",
+    desc: "High-throughput contour vinyl graphics cutting, frosted privacy films, decals, sandblasting stencils, and roll lamination.",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    stat: "High-Speed Contour"
   }
 ];
 
@@ -423,6 +525,14 @@ export const testimonials = [
 ];
 
 export const faqs = [
+  {
+    q: "How long has Patna Signage been in the industry?",
+    a: "Our founders established printing and signage manufacturing in Patna in 1990 (operating alongside sister brand Kashish Ad). With over 34 years of craftsmanship, our facility houses 40+ skilled fabricators, 12 specialized operations staff, and heavy in-house CNC and laser machinery."
+  },
+  {
+    q: "Do you provide official GST invoices for B2B corporate billing?",
+    a: "Yes, absolutely! We are a fully GST-registered commercial manufacturing entity (GSTIN available on all official commercial quotations and tax invoices). We routinely cater to corporate giants like L&T, Indian Oil, Apollo Diagnostics, and Pantaloons with compliant B2B tax invoicing."
+  },
   {
     q: "How long does it take to manufacture and install a sign board in Patna?",
     a: "Standard glow sign boards and acrylic boards are ready within 3 to 5 business days. Complex architectural 3D stainless steel or full ACP storefront facades typically take 7 to 10 days, including 3D design proofing and structural site fabrication."
