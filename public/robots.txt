@@ -1,0 +1,8 @@
+# Technical SEO: robots.txt for Patna Signage
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?*sort=
+
+# Sitemap location
+Sitemap: https://patnasignage.com/sitemap.xml

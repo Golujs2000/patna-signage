@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patna Signage | Premium LED Signage, 3D Letters & Storefront Fabrication in Patna</title>
+  <meta name="description" content="Patna Signage is Bihar's leading in-house signage manufacturer. Custom LED channel letters, 3D acrylic & stainless steel letters, modern ACP facades, glow signs, and commercial storefront branding.">
+  <meta name="keywords" content="Patna Signage, LED Sign Board Patna, 3D Letters Patna, ACP Sign Board Patna, Glow Sign Board Bihar, Signage Manufacturer Patna, Shop Front Branding Patna">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Patna Signage - Premium Signage That Makes Your Business Stand Out">
+  <meta property="og:description" content="Custom LED Signage, 3D Letters, ACP Sign Boards & Complete Signage Fabrication in Patna. In-house production and professional installation.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80">
+
+  <!-- Favicon with 3D P Icon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured Data: LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Patna Signage",
+    "image": "assets/patna-signage-logo.svg",
+    "telephone": "+91 91234 56789",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bailey Road / Exhibition Road",
+      "addressLocality": "Patna",
+      "addressRegion": "Bihar",
+      "postalCode": "800001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.6093,
+      "longitude": 85.1235
+    },
+    "priceRange": "₹₹",
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:30",
+      "closes": "20:30"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Header (Black #111111 + Vector SVG Logo Lockup + Red CTA)
+       ========================================================================= -->
+  <header class="site-header" id="mainHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Patna Signage Home">
+        <img src="assets/patna-signage-logo-light.svg" alt="Patna Signage - Signage | Branding | Fabrication" class="navbar-brand-img">
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#featuredTypes" class="nav-link">Signage</a></li>
+          <li><a href="#whatWeDo" class="nav-link">Services</a></li>
+          <li><a href="#portfolio" class="nav-link">Projects</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Side CTA: 🔴 #E31B23 -->
+      <div class="header-cta-group">
+        <a href="#contact" class="header-quote-btn">
+          <span>📞</span> Get a Quote
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. Hero Section (Hero Background Image: assets/Hero background image.png)
+       ========================================================================= -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-content-wrap">
+      <!-- Left Column: Copy & Live Text -->
+      <div class="hero-text-col">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Bihar's Premier Signage Manufacturer
+        </div>
+
+        <!-- Prominent Live Text Tagline -->
+        <div class="hero-service-tagline">
+          <span class="tag-pill tag-red">SIGNAGE</span>
+          <span class="tag-dot">•</span>
+          <span class="tag-pill tag-gold">BRANDING</span>
+          <span class="tag-dot">•</span>
+          <span class="tag-pill tag-dark">FABRICATION</span>
+        </div>
+        
+        <h1 class="hero-title">
+          Premium Signage That Makes Your Business <span class="highlight-red">Stand</span> <span class="highlight-gold">Out</span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Patna's leading in-house manufacturer of 3D Acrylic & LED Channel Letters, Modern ACP Facades, Glow Signs, and Commercial Storefront Fabrication. Built with CNC precision for maximum brand visibility.
+        </p>
+
+        <!-- 3 Pillars Live Text Chips -->
+        <div class="hero-pillars-row">
+          <a href="#whatWeDo" class="pillar-chip">
+            <span class="pillar-chip-icon">💡</span>
+            <div class="pillar-chip-text">
+              <strong>Signage</strong>
+              <span>LED & 3D Letters</span>
+            </div>
+          </a>
+          <a href="#whatWeDo" class="pillar-chip">
+            <span class="pillar-chip-icon">🎯</span>
+            <div class="pillar-chip-text">
+              <strong>Branding</strong>
+              <span>Storefronts & Facades</span>
+            </div>
+          </a>
+          <a href="#whatWeDo" class="pillar-chip">
+            <span class="pillar-chip-icon">⚙️</span>
+            <div class="pillar-chip-text">
+              <strong>Fabrication</strong>
+              <span>In-House CNC Cutting</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get Free Quote →</a>
+          <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+        </div>
+
+        <!-- Trust Points -->
+        <div class="hero-trust-points">
+          <div class="trust-item">
+            <span class="trust-check">✓</span> In-House Production
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span> Custom Fabrication
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span> Installation Available
+          </div>
+          <div class="trust-item">
+            <span class="trust-check">✓</span> Direct Factory in Patna
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. Quick Trust Bar (Signage • Branding • Fabrication Live Text)
+       ========================================================================= -->
+  <div class="quick-trust-bar">
+    <div class="container trust-bar-wrap">
+      <div class="trust-bar-message">
+        <span class="pill">💡 <strong>SIGNAGE</strong></span>
+        <span class="trust-divider">•</span>
+        <span class="pill">🎯 <strong>BRANDING</strong></span>
+        <span class="trust-divider">•</span>
+        <span class="pill">⚙️ <strong>FABRICATION</strong></span>
+        <span class="trust-divider">|</span>
+        <span class="pill">🛡️ <strong>Direct Factory in Patna</strong></span>
+      </div>
+      <div class="trust-badge-mini">
+        <span>🏭 No Brokers • In-House CNC & Laser Production in Bihar</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       4. What We Do (Service Cards: White BG + Black Text + Red Accent)
+       ========================================================================= -->
+  <section class="services-section" id="whatWeDo">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Complete Signage Solutions</span>
+        <h2 class="section-title">Complete Signage Solutions Under One Roof</h2>
+        <p class="section-subtitle">From eye-catching luminous storefronts to corporate architectural branding, we craft every sign with industrial precision and premium materials.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- 01 LED Signage -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" alt="LED Signage Solutions Patna" class="service-img">
+            <span class="service-num-badge">01</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">💡</div>
+            <h3 class="service-card-title">LED Signage</h3>
+          </div>
+          <p class="service-card-desc">Channel letters, illuminated letters, glow signs and LED boards engineered with waterproof diode modules.</p>
+          <a href="#contact" class="service-card-link">Explore LED Options →</a>
+        </div>
+
+        <!-- 02 3D Letter Signage -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=600&q=80" alt="3D Letter Signage Fabrication" class="service-img">
+            <span class="service-num-badge">02</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">🔤</div>
+            <h3 class="service-card-title">3D Letter Signage</h3>
+          </div>
+          <p class="service-card-desc">Acrylic, stainless steel, aluminium and premium 3D letters crafted with precision computerized bending and laser cutting.</p>
+          <a href="#contact" class="service-card-link">Explore 3D Letters →</a>
+        </div>
+
+        <!-- 03 ACP Signage -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1572945550744-57049dcbc1b3?auto=format&fit=crop&w=600&q=80" alt="ACP Signage Facade Patna" class="service-img">
+            <span class="service-num-badge">03</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">🏢</div>
+            <h3 class="service-card-title">ACP Signage</h3>
+          </div>
+          <p class="service-card-desc">Modern ACP shop fronts, corporate signage and facade branding using heavy-duty aluminium composite panels.</p>
+          <a href="#contact" class="service-card-link">Explore ACP Solutions →</a>
+        </div>
+
+        <!-- 04 Glow Sign Boards -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=600&q=80" alt="Glow Sign Boards Patna" class="service-img">
+            <span class="service-num-badge">04</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">✨</div>
+            <h3 class="service-card-title">Glow Sign Boards</h3>
+          </div>
+          <p class="service-card-desc">Durable and highly visible illuminated boards built for commercial reliability and high contrast readability.</p>
+          <a href="#contact" class="service-card-link">Explore Glow Boards →</a>
+        </div>
+
+        <!-- 05 Shop Front Signage -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Shop Front Signage Patna" class="service-img">
+            <span class="service-num-badge">05</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">🏬</div>
+            <h3 class="service-card-title">Shop Front Signage</h3>
+          </div>
+          <p class="service-card-desc">Complete storefront branding and signage solutions that convert passing foot traffic into paying customers across Patna.</p>
+          <a href="#contact" class="service-card-link">Explore Shop Fronts →</a>
+        </div>
+
+        <!-- 06 Corporate Signage -->
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80" alt="Corporate Signage Patna" class="service-img">
+            <span class="service-num-badge">06</span>
+          </div>
+          <div class="service-card-top">
+            <div class="service-icon-box">🏛️</div>
+            <h3 class="service-card-title">Corporate Signage</h3>
+          </div>
+          <p class="service-card-desc">Office, showroom, hospital, school and commercial architectural signage.</p>
+          <a href="#contact" class="service-card-link">Explore Corporate →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. Featured Signage Types (10 items grid)
+       ========================================================================= -->
+  <section class="types-section" id="featuredTypes">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag gold-tag">Visual Grid</span>
+        <h2 class="section-title light">Signage We Manufacture</h2>
+        <p class="section-subtitle light">Explore our comprehensive range of high-performance architectural signage fabricated in our local workshop.</p>
+      </div>
+
+      <div class="types-grid">
+        <!-- 1. Channel Letters -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80" alt="Channel Letters Signage" class="type-img">
+            <span class="type-badge">Front & Backlit</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Channel Letters</h4>
+            <p class="type-desc">Dimensional lettering with internal LED illumination for striking storefront visibility.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 2. LED Sign Boards -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=600&q=80" alt="LED Sign Boards" class="type-img">
+            <span class="type-badge">Ultra Bright</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">LED Sign Boards</h4>
+            <p class="type-desc">Energy-efficient, uniform illumination boards for round-the-clock brand presence.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 3. ACP Signage -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1572945550744-57049dcbc1b3?auto=format&fit=crop&w=600&q=80" alt="ACP Signage Facade" class="type-img">
+            <span class="type-badge">Weatherproof</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">ACP Signage</h4>
+            <p class="type-desc">Heavy-gauge aluminum composite cladding paired with sleek router-cut lettering.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 4. Acrylic Letters -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&w=600&q=80" alt="Acrylic Letters" class="type-img">
+            <span class="type-badge">Cast Acrylic</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Acrylic Letters</h4>
+            <p class="type-desc">High gloss, crystal clear edges with vibrant color options and crisp laser cut lines.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 5. Stainless Steel Letters -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=600&q=80" alt="Stainless Steel Letters" class="type-img">
+            <span class="type-badge">SS 304 Grade</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Stainless Steel Letters</h4>
+            <p class="type-desc">Gold titanium, rose gold, and brushed silver finishes for luxury corporate identities.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 6. Glow Sign Boards -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=600&q=80" alt="Glow Sign Boards" class="type-img">
+            <span class="type-badge">Long Life</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Glow Sign Boards</h4>
+            <p class="type-desc">High-GSM translucent flex and acrylic diffusers for seamless, vivid glowing graphics.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 7. Flex Signage -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&w=600&q=80" alt="Flex Signage" class="type-img">
+            <span class="type-badge">Economical</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Flex Signage</h4>
+            <p class="type-desc">Cost-effective large-scale branding boards with robust MS metal framing.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 8. Vinyl Branding -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?auto=format&fit=crop&w=600&q=80" alt="Vinyl Branding" class="type-img">
+            <span class="type-badge">High Resolution</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Vinyl Branding</h4>
+            <p class="type-desc">One-way vision films, frosted window wraps, and wall graphics for commercial retail.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 9. 3D Letters -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="3D Letters" class="type-img">
+            <span class="type-badge">Multilayer</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">3D Letters</h4>
+            <p class="type-desc">Layered depth construction combining metal, acrylic, and halo illumination effects.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+
+        <!-- 10. Pylon / Totem Signs -->
+        <div class="type-card" onclick="location.href='#contact'">
+          <div class="type-img-wrap">
+            <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=600&q=80" alt="Pylon Totem Signs" class="type-img">
+            <span class="type-badge">Highway & Plaza</span>
+          </div>
+          <div class="type-content">
+            <h4 class="type-title">Pylon / Totem Signs</h4>
+            <p class="type-desc">Freestanding architectural structures for petrol pumps, hospitals, and shopping complexes.</p>
+            <span class="type-cta">Get Quote ➔</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. Why Patna Signage? (Machine Advantage)
+       ========================================================================= -->
+  <section class="why-section" id="whyUs">
+    <div class="container why-grid">
+      <!-- Workshop Machine Photo & Advantage -->
+      <div class="workshop-visual-column">
+        <div class="workshop-img-card">
+          <img 
+            src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80" 
+            alt="Patna Signage In-House CNC Laser Cutting and Fabrication Machine Workshop" 
+            class="workshop-img"
+          >
+          <div class="workshop-overlay-stat">
+            <div class="stat-item">
+              <div class="stat-num">100%</div>
+              <div class="stat-label">In-House Manufacturing</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-num">0.1mm</div>
+              <div class="stat-label">CNC Router Precision</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Process Content -->
+      <div class="why-content-column">
+        <span class="section-tag">In-House Machine Advantage</span>
+        <h2 class="section-title">Designed. Manufactured. Installed.</h2>
+        <p class="section-subtitle" style="margin: 0 0 24px 0;">
+          From design to fabrication and installation, we manage your signage project under one roof. Unlike brokers who outsource your job, our full-fledged workshop in Patna handles every cut, bend, and weld directly.
+        </p>
+
+        <div class="process-steps-list">
+          <div class="process-step-item">
+            <div class="step-num-bubble">01</div>
+            <div class="step-body">
+              <h4 class="step-body-title">Design</h4>
+              <p class="step-body-desc">Custom signage design based on your brand, architecture, and visibility requirements.</p>
+            </div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-bubble">02</div>
+            <div class="step-body">
+              <h4 class="step-body-title">Production</h4>
+              <p class="step-body-desc">In-house printing and fabrication capabilities using computerized machinery.</p>
+            </div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-bubble">03</div>
+            <div class="step-body">
+              <h4 class="step-body-title">Finishing</h4>
+              <p class="step-body-desc">Cutting, lettering, lighting and finishing with certified wiring and electrical testing.</p>
+            </div>
+          </div>
+
+          <div class="process-step-item">
+            <div class="step-num-bubble">04</div>
+            <div class="step-body">
+              <h4 class="step-body-title">Installation</h4>
+              <p class="step-body-desc">Professional installation at your location anywhere in Patna and Bihar.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. Our Work / Portfolio (Light Gray Background #F1F1F1)
+       ========================================================================= -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Portfolio</span>
+        <h2 class="section-title">Signage Projects That Speak for Your Brand</h2>
+        <p class="section-subtitle">Browse through our recently completed commercial storefronts, illuminated LED letters, and corporate branding across Patna.</p>
+      </div>
+
+      <!-- Categories Filter Tabs -->
+      <div class="portfolio-filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="led">LED</button>
+        <button class="filter-btn" data-filter="acp">ACP</button>
+        <button class="filter-btn" data-filter="3d">3D Letters</button>
+        <button class="filter-btn" data-filter="shop">Shop Front</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+      </div>
+
+      <!-- Projects Grid (6-9 actual projects) -->
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-item" data-category="led shop 3d">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Apex Bistro LED Channel Letter Signage" class="portfolio-img">
+            <span class="portfolio-category-badge">LED Channel Letters</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Apex Bistro & Cafe</h4>
+            <div class="portfolio-type">LED Channel Letter Signage</div>
+            <div class="portfolio-location">📍 Boring Road, Patna</div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item" data-category="acp shop">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80" alt="Titan Jewelers ACP Facade Signage" class="portfolio-img">
+            <span class="portfolio-category-badge">ACP Signage</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Titan Jewelers Showroom</h4>
+            <div class="portfolio-type">ACP Signage & Router Cut Backlit</div>
+            <div class="portfolio-location">📍 Fraser Road, Patna</div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item" data-category="3d corporate">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" alt="Patliputra Health Center 3D Letters" class="portfolio-img">
+            <span class="portfolio-category-badge">3D Letters</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Patliputra Health Center</h4>
+            <div class="portfolio-type">Stainless Steel 304 Titanium 3D Letters</div>
+            <div class="portfolio-location">📍 Kankarbagh, Patna</div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item" data-category="led 3d">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80" alt="Luxe Apparel Acrylic 3D Letters" class="portfolio-img">
+            <span class="portfolio-category-badge">Acrylic 3D</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Luxe Fashion Store</h4>
+            <div class="portfolio-type">LED Channel Letter Signage</div>
+            <div class="portfolio-location">📍 Bailey Road, Patna</div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item" data-category="corporate acp">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Bihar Tech Hub Corporate Pylon" class="portfolio-img">
+            <span class="portfolio-category-badge">Corporate Signage</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Bihar IT Technology Hub</h4>
+            <div class="portfolio-type">Architectural Monolith & Campus Signage</div>
+            <div class="portfolio-location">📍 Patliputra Industrial Area, Patna</div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-item" data-category="shop led">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?auto=format&fit=crop&w=800&q=80" alt="Royal Heritage Hotel Storefront Signage" class="portfolio-img">
+            <span class="portfolio-category-badge">Shop Front</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-title">Royal Heritage Lounge</h4>
+            <div class="portfolio-type">LED Channel Letter Signage & Glow Accent</div>
+            <div class="portfolio-location">📍 Exhibition Road, Patna</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. Industries We Serve
+       ========================================================================= -->
+  <section class="industries-section" id="industries">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Industries We Serve</span>
+        <h2 class="section-title">Signage for Every Business</h2>
+        <p class="section-subtitle">Whatever your industry, we design signage that matches your architectural setting, regulatory codes, and brand identity.</p>
+      </div>
+
+      <div class="industries-grid">
+        <div class="industry-card">
+          <div class="industry-icon">🏪</div>
+          <h4 class="industry-name">Retail Stores</h4>
+          <p class="industry-desc">High-contrast storefronts, backlit logos, and attractive window graphics.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏢</div>
+          <h4 class="industry-name">Corporate Offices</h4>
+          <p class="industry-desc">Reception stainless steel logos, meeting room frostings, and directory signs.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏥</div>
+          <h4 class="industry-name">Hospitals & Clinics</h4>
+          <p class="industry-desc">24/7 glowing emergency signs, department wayfinding, and campus pylons.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏨</div>
+          <h4 class="industry-name">Hotels & Restaurants</h4>
+          <p class="industry-desc">Warm ambient illumination, gold titanium channel letters, and menu displays.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏫</div>
+          <h4 class="industry-name">Schools & Institutions</h4>
+          <p class="industry-desc">Grand entry gate arch boards, campus maps, and milestone plaques.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏬</div>
+          <h4 class="industry-name">Showrooms</h4>
+          <p class="industry-desc">Heavy-gauge ACP cladding, high-lumen LED fascia, and car dealership totems.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏠</div>
+          <h4 class="industry-name">Real Estate</h4>
+          <p class="industry-desc">Site branding hoardings, township entry gates, and illuminated marketing boards.</p>
+        </div>
+
+        <div class="industry-card">
+          <div class="industry-icon">🏭</div>
+          <h4 class="industry-name">Industrial Businesses</h4>
+          <p class="industry-desc">Safety signage, warehouse identification, and weather-resistant factory boards.</p>
+        </div>
+      </div>
+
+      <!-- Industry Bottom Banner CTA -->
+      <div class="industry-cta-banner">
+        <div class="industry-cta-text">
+          <h3>Need signage for your business?</h3>
+          <p>Get a custom site evaluation and 3D mockup proposal anywhere in Patna.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">Get a Quote →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. Materials & Technology (Deep Black Background)
+       ========================================================================= -->
+  <section class="materials-section" id="materials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag gold-tag">Built With Quality Materials</span>
+        <h2 class="section-title light">Built With Quality Materials</h2>
+        <p class="section-subtitle light">We never compromise on material thickness, diode ratings, or metal grades. Only certified materials engineered to endure Bihar's weather.</p>
+      </div>
+
+      <div class="materials-grid">
+        <div class="material-card">
+          <span class="material-badge">Cladding</span>
+          <h4 class="material-name">ACP</h4>
+          <p class="material-desc">Aluminium Composite Panels in matte, metallic, and wooden textures with PVDF coating.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Illumination Face</span>
+          <h4 class="material-name">Acrylic</h4>
+          <p class="material-desc">Virgin grade cast acrylic with 92% light transmission that resists UV yellowing.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Luxury Metallic</span>
+          <h4 class="material-name">Stainless Steel</h4>
+          <p class="material-desc">SS 304 rust-proof alloy with mirror chrome, brushed hair-line, and electroplated titanium gold.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Structural Framing</span>
+          <h4 class="material-name">Aluminium</h4>
+          <p class="material-desc">Lightweight, high-tensile extruded profiles providing maximum wind-load stability.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Diode Modules</span>
+          <h4 class="material-name">LED Modules</h4>
+          <p class="material-desc">IP67 waterproof lens diodes with 50,000+ hour operational lifespan.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Surface Graphics</span>
+          <h4 class="material-name">Vinyl</h4>
+          <p class="material-desc">Cast outdoor media with anti-fade UV lamination for vibrant commercial graphics.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Backlit Media</span>
+          <h4 class="material-name">Flex</h4>
+          <p class="material-desc">Heavy GSM star flex with high tear strength and uniform light diffusion.</p>
+        </div>
+
+        <div class="material-card">
+          <span class="material-badge">Substrate Boards</span>
+          <h4 class="material-name">PVC / Sunboard</h4>
+          <p class="material-desc">High-density rigid foam sheets providing smooth backing and easy CNC precision carving.</p>
+        </div>
+      </div>
+
+      <!-- Tech Highlight Banner -->
+      <div class="tech-highlight-bar">
+        <div class="tech-pill">
+          <span class="tech-pill-dot"></span>
+          Modern Machinery
+        </div>
+        <div class="tech-pill">
+          <span class="tech-pill-dot"></span>
+          Precision Cutting
+        </div>
+        <div class="tech-pill">
+          <span class="tech-pill-dot"></span>
+          Professional Finishing
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       10. Printing Capability
+       ========================================================================= -->
+  <section class="printing-section" id="printing">
+    <div class="container">
+      <div class="printing-banner">
+        <div class="printing-header">
+          <span class="section-tag">In-House Printing</span>
+          <h3 class="printing-headline">More Than Signage</h3>
+          <p class="printing-subtext">
+            Need printing along with your signage? Our in-house printing capability allows us to handle your branding requirements from signage to large-format printing.
+          </p>
+        </div>
+
+        <div class="printing-services-grid">
+          <div class="print-card">
+            <div class="print-icon">🖨️</div>
+            <h5 class="print-title">Flex Printing</h5>
+          </div>
+
+          <div class="print-card">
+            <div class="print-icon">🎞️</div>
+            <h5 class="print-title">Vinyl Printing</h5>
+          </div>
+
+          <div class="print-card">
+            <div class="print-icon">🚩</div>
+            <h5 class="print-title">Banner Printing</h5>
+          </div>
+
+          <div class="print-card">
+            <div class="print-icon">📐</div>
+            <h5 class="print-title">Large Format Printing</h5>
+          </div>
+
+          <div class="print-card">
+            <div class="print-icon">🎨</div>
+            <h5 class="print-title">Promotional Graphics</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       11. Simple 4-Step Process (Black Background with White Text & Red Highlights)
+       ========================================================================= -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag gold-tag">From Idea to Installation</span>
+        <h2 class="section-title light">Simple 4-Step Process</h2>
+        <p class="section-subtitle light">From your initial concept to precision local installation in Patna.</p>
+      </div>
+
+      <div class="process-flow-grid">
+        <!-- Step 1 -->
+        <div class="flow-card">
+          <div class="flow-step-circle">01</div>
+          <h4 class="flow-title">Share Your Requirement</h4>
+          <p class="flow-desc">Tell us about your location, size and branding needs.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flow-card">
+          <div class="flow-step-circle">02</div>
+          <h4 class="flow-title">Design & Estimate</h4>
+          <p class="flow-desc">We prepare the signage concept and quotation.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flow-card">
+          <div class="flow-step-circle">03</div>
+          <h4 class="flow-title">In-House Production</h4>
+          <p class="flow-desc">Your signage is manufactured and finished.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="flow-card">
+          <div class="flow-step-circle">04</div>
+          <h4 class="flow-title">Installation</h4>
+          <p class="flow-desc">We deliver and install it at your location.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       12. About Patna Signage
+       ========================================================================= -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-content">
+        <span class="section-tag">About Patna Signage</span>
+        <h2 class="about-heading">Your Local Signage & Branding Partner in Patna</h2>
+        <p class="about-desc">
+          Patna Signage is your dedicated partner for commercial signage fabrication and visual branding. By keeping production, CNC cutting, bending, lighting assembly, and installation strictly in-house, we deliver superior quality, custom designs, and dependable on-time delivery across Patna and Bihar.
+        </p>
+
+        <div class="about-features-list">
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> In-house production</div>
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> Experienced team</div>
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> Quality materials</div>
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> Custom designs</div>
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> Commercial signage</div>
+          <div class="about-feat-item"><span class="about-feat-icon">✔</span> Fabrication & Installation</div>
+        </div>
+
+        <div class="about-stats-row">
+          <div class="about-stat-box">
+            <h4>10+</h4>
+            <p>Years in Bihar</p>
+          </div>
+          <div class="about-stat-box">
+            <h4>1,200+</h4>
+            <p>Signs Fabricated</p>
+          </div>
+          <div class="about-stat-box">
+            <h4>100%</h4>
+            <p>In-House Facility</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-visual">
+        <div class="about-img-frame">
+          <img 
+            src="https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=1000&q=80" 
+            alt="Patna Signage Workshop Master Crafting 3D Signage" 
+            class="about-img"
+          >
+        </div>
+        <div class="about-float-badge">
+          <h5>Patna, Bihar Facility</h5>
+          <p>Complete machine park with computerized routing, laser cutter, and bending line.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       13. Final CTA (Red Background #E31B23 + White Text)
+       ========================================================================= -->
+  <section class="final-cta-section">
+    <div class="container final-cta-content">
+      <span class="section-tag tag-white">Ready to Make Your Business Visible?</span>
+      <h2 class="final-cta-title">Ready to Make Your Business Visible?</h2>
+      <p class="final-cta-desc">
+        Get professional signage designed and manufactured for your business.
+      </p>
+
+      <div class="final-cta-actions">
+        <a href="#contact" class="btn btn-white-action" style="padding: 16px 36px; font-size: 1.05rem;">Get a Free Quote</a>
+        <a href="tel:+919123456789" class="btn btn-secondary-light" style="padding: 16px 32px; font-size: 1.05rem;">Call Now</a>
+      </div>
+
+      <div>
+        <a href="tel:+919123456789" class="final-phone-display">
+          <span>📞</span> +91 91234 56789
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       14. FAQ Section
+       ========================================================================= -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Frequently Asked Questions</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about custom signage manufacturing, pricing, and installation in Patna.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <!-- Q1 -->
+        <div class="faq-item active">
+          <button class="faq-question-btn">
+            <span>What types of signage do you manufacture?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>We manufacture 3D LED channel letters, acrylic glow signs, stainless steel (SS 304) titanium finish letters, ACP facade panels, storefront branding boards, pylon/totem monuments, flex boards, and neon signage.</p>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you provide LED and 3D signage?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, LED and 3D signage are our core specialties. We fabricate front-lit, back-lit (halo effect), and edge-lit 3D letters using IP67 waterproof LED diodes with uniform light distribution.</p>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you manufacture signage in-house?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, 100% of our production takes place inside our own workshop in Patna. We own computerized CNC routers, laser cutters, channel letter bending machines, and wide-format printers so you never pay third-party middleman margins.</p>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you provide signage installation?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. Our in-house installation team handles site measurement, structural scaffolding, civil mounting anchors, and safe electrical connections across Patna and throughout Bihar.</p>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How much does shop signage cost in Patna?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Signage cost depends on dimensions, material selection (ACP, acrylic, stainless steel), and lighting type (frontlit vs halo backlit). We offer free site inspections and transparent itemized estimates with zero hidden costs.</p>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you provide ACP signage?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we specialize in complete ACP (Aluminium Composite Panel) cladding for shop fronts, corporate showrooms, and building facades with router-cut backlit letters.</p>
+          </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you also provide flex printing?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, our facility includes high-speed wide-format printers for star flex, frontlit & backlit flex banners, and adhesive vinyl graphics to provide end-to-end branding under one roof.</p>
+          </div>
+        </div>
+
+        <!-- Q8 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How long does signage production take?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Standard LED channel letter and ACP boards typically take 4 to 7 working days from final artwork approval. Urgent express fabrication is also available on request.</p>
+          </div>
+        </div>
+
+        <!-- Q9 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you provide custom signage designs?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, our dedicated graphic design team provides realistic 3D day/night visualizations so you can see exactly how the signage will look on your building before production begins.</p>
+          </div>
+        </div>
+
+        <!-- Q10 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Which areas in Patna do you serve?</span>
+            <div class="faq-icon-toggle">+</div>
+          </button>
+          <div class="faq-answer">
+            <p>We serve all areas across Patna including Boring Road, Fraser Road, Kankarbagh, Bailey Road, Exhibition Road, Patliputra, Danapur, Raja Bazar, Saguna More, Ashiana Nagar, and adjacent districts throughout Bihar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       15. Final Contact Section
+       ========================================================================= -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-layout">
+      <!-- Form Column -->
+      <div class="quote-form-card">
+        <span class="section-tag">Let's Build Your Signage</span>
+        <h2 class="section-title" style="margin-bottom: 8px;">Let's Build Your Signage</h2>
+        <p style="color: var(--color-metal-gray); margin-bottom: 28px;">Fill in your requirements below for a fast estimate and custom design mockup.</p>
+
+        <form id="signageQuoteForm">
+          <div class="form-group-grid">
+            <div class="form-group">
+              <label for="clientName" class="form-label">Name *</label>
+              <input type="text" id="clientName" class="form-control" placeholder="e.g. Rahul Kumar" required>
+            </div>
+
+            <div class="form-group">
+              <label for="businessName" class="form-label">Business Name *</label>
+              <input type="text" id="businessName" class="form-control" placeholder="e.g. Royal Cafe & Lounge" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="clientPhone" class="form-label">Phone Number *</label>
+            <input type="tel" id="clientPhone" class="form-control" placeholder="e.g. 98765 43210" required>
+          </div>
+
+          <div class="form-group">
+            <label for="signageService" class="form-label">What do you need?</label>
+            <select id="signageService" class="form-control">
+              <option value="LED Signage">LED Signage</option>
+              <option value="ACP Signage">ACP Signage</option>
+              <option value="3D Letters">3D Letters</option>
+              <option value="Shop Front">Shop Front</option>
+              <option value="Glow Sign">Glow Sign</option>
+              <option value="Flex Printing">Flex Printing</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">
+            Get My Quote
+          </button>
+        </form>
+      </div>
+
+      <!-- Contact Info Details Column -->
+      <div class="contact-info-column">
+        <div class="contact-direct-card">
+          <h3 class="contact-direct-title">Contact Our Patna Workshop</h3>
+          
+          <div class="contact-details-list">
+            <div class="contact-detail-row">
+              <div class="detail-icon-circle">📞</div>
+              <div class="detail-text-wrap">
+                <h5>Phone</h5>
+                <a href="tel:+919123456789">+91 91234 56789</a>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="detail-icon-circle">📍</div>
+              <div class="detail-text-wrap">
+                <h5>Location</h5>
+                <p>Patna, Bihar (Bailey Road / Exhibition Road)</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="detail-icon-circle">⏰</div>
+              <div class="detail-text-wrap">
+                <h5>Working Hours</h5>
+                <p>Mon - Sat: 9:30 AM - 8:30 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Direct -->
+        <a href="https://wa.me/919123456789?text=Hi%20Patna%20Signage%2C%20I%20need%20a%20quote%20for%20signage%20fabrication." target="_blank" rel="noopener noreferrer" class="whatsapp-fast-card">
+          <div class="wa-text">
+            <h4>💬 WhatsApp</h4>
+            <p>Send photos of your shop front for instant estimate</p>
+          </div>
+          <div class="wa-btn">Open Chat</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       16. Footer (Black #111111 + White Logo)
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <div style="margin-bottom: 18px;">
+            <img src="assets/patna-signage-logo-light.svg" alt="Patna Signage Logo" class="footer-brand-img" style="height: 48px; width: auto; max-width: 240px; display: block;">
+          </div>
+          <div class="footer-tagline">Signage • Branding • Fabrication</div>
+          <p class="footer-about">
+            Patna's premier in-house signage manufacturer. Delivering high-impact commercial storefronts, illuminated 3D letters, and facade cladding across Bihar.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#whatWeDo" class="footer-link">Services</a></li>
+            <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+            <li><a href="#privacyPolicy" class="footer-link" onclick="alert('Privacy Policy: We protect customer project details and contact numbers.')">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Signage Solutions</h4>
+          <ul class="footer-links">
+            <li><a href="#featuredTypes" class="footer-link">LED Channel Letters</a></li>
+            <li><a href="#featuredTypes" class="footer-link">ACP Facade Boards</a></li>
+            <li><a href="#featuredTypes" class="footer-link">Stainless Steel 3D</a></li>
+            <li><a href="#featuredTypes" class="footer-link">Acrylic Glow Signs</a></li>
+            <li><a href="#printing" class="footer-link">Wide-Format Printing</a></li>
+            <li><a href="#featuredTypes" class="footer-link">Pylon & Totem Signs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Workshop Location</h4>
+          <p style="font-size: 0.92rem; line-height: 1.6; margin-bottom: 14px;">
+            Bailey Road / Exhibition Road,<br>
+            Patna, Bihar 800001
+          </p>
+          <p style="font-size: 0.92rem; color: var(--color-white); font-weight: 800;">
+            📞 +91 91234 56789
+          </p>
+          <p style="font-size: 0.85rem; color: var(--color-gold); margin-top: 8px;">
+            Patna Based Fabrication Facility
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>© 2026 Patna Signage. All Rights Reserved. Engineered & Fabricated in Patna, Bihar.</p>
+        <div class="footer-legal-links">
+          <a href="#hero" class="footer-link">Back to Top ↑</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Contact Buttons -->
+  <div class="floating-action-bar">
+    <a href="https://wa.me/919123456789?text=Hi%20Patna%20Signage%2C%20I%20am%20interested%20in%20a%20signage%20quote." target="_blank" rel="noopener noreferrer" class="floating-btn wa" title="Chat on WhatsApp" aria-label="WhatsApp">
+      💬
+    </a>
+    <a href="tel:+919123456789" class="floating-btn call" title="Call Now" aria-label="Call Now">
+      📞
+    </a>
+  </div>
+
+  <!-- Toast Notification Modal -->
+  <div id="toastNotification" class="toast-msg" role="status" aria-live="polite">
+    <span style="font-size: 1.4rem;">🎉</span>
+    <span class="toast-text">Thank you! Your quotation request has been received.</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
