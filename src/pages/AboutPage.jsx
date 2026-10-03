@@ -151,18 +151,21 @@ export default function AboutPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {machineryData.map((machine, idx) => (
-            <div key={idx} className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+            <div key={idx} className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
               <div>
-                <img
-                  src={machine.image}
-                  alt={`${machine.title} at Patna Signage facility`}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6 space-y-2">
-                  <span className="text-[10px] font-bold text-brand-red uppercase tracking-wider px-2 py-0.5 rounded bg-red-50 inline-block">
+                <div className="relative overflow-hidden bg-slate-900">
+                  <img
+                    src={machine.image}
+                    alt={`${machine.title} at Patna Signage facility`}
+                    className="w-full h-52 object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute top-3 left-3 bg-slate-950/85 backdrop-blur-md px-2.5 py-1 rounded-md text-[10px] font-bold text-white border border-white/10 shadow">
                     {machine.stat}
-                  </span>
-                  <h3 className="text-base font-bold text-slate-900">{machine.title}</h3>
+                  </div>
+                </div>
+                <div className="p-6 space-y-2">
+                  <h3 className="text-base font-bold text-slate-900 group-hover:text-brand-red transition-colors">{machine.title}</h3>
                   <p className="text-xs text-slate-600 leading-relaxed">{machine.desc}</p>
                 </div>
               </div>
@@ -190,10 +193,24 @@ export default function AboutPage() {
             {trustedClients.map((client, idx) => (
               <div 
                 key={idx} 
-                className="p-3.5 rounded-xl bg-slate-50 hover:bg-white border border-slate-200 hover:border-brand-red/40 transition-all text-center flex flex-col justify-center items-center shadow-sm"
+                className="group p-4 rounded-2xl bg-white hover:bg-slate-50 border border-slate-200/90 hover:border-brand-red/40 transition-all duration-200 text-center flex flex-col justify-between items-center shadow-sm hover:shadow-md min-h-[135px]"
               >
-                <div className="text-xs font-bold text-slate-900 line-clamp-1">{client.name}</div>
-                <div className="text-[10px] text-slate-500 mt-0.5 line-clamp-1">{client.category}</div>
+                <div className="h-12 w-full flex items-center justify-center p-1">
+                  <img
+                    src={client.logo}
+                    alt={`${client.name} logo`}
+                    className="max-h-9 max-w-[105px] w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="w-full mt-2 pt-2 border-t border-slate-100">
+                  <div className="text-xs font-bold text-slate-900 line-clamp-1 group-hover:text-brand-red transition-colors">
+                    {client.name}
+                  </div>
+                  <div className="text-[10px] text-slate-500 mt-0.5 line-clamp-1">
+                    {client.category}
+                  </div>
+                </div>
               </div>
             ))}
           </div>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <!-- Mufti Crest / Shield -->
+  <rect x="16" y="24" width="28" height="28" rx="6" fill="#111827"/>
+  <text x="24" y="44" font-family="'Inter', sans-serif" font-weight="900" font-size="20" fill="#dc2626">M</text>
+  <!-- Text -->
+  <text x="54" y="45" font-family="'Montserrat', sans-serif" font-weight="900" font-size="26" fill="#111827" letter-spacing="4">MUFTI</text>
+  <text x="56" y="58" font-family="'Inter', sans-serif" font-weight="700" font-size="8" fill="#dc2626" letter-spacing="3">GENUINE JEANS &amp; CO.</text>
+</svg>

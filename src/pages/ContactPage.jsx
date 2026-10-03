@@ -127,13 +127,24 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <strong className="text-slate-900 block font-bold">Direct Phone / Hotline:</strong>
-                    <a
-                      href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`}
-                      className="text-slate-900 hover:text-brand-red font-extrabold text-sm block mt-0.5"
-                    >
-                      {companyInfo.phoneDisplay}
-                    </a>
-                    <span className="text-[11px] text-slate-500">Available 9:00 AM to 8:30 PM</span>
+                    <div className="flex flex-wrap items-center gap-2 mt-0.5">
+                      <a
+                        href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`}
+                        className="text-slate-900 hover:text-brand-red font-extrabold text-sm"
+                        title="Primary Phone"
+                      >
+                        {companyInfo.phoneDisplay}
+                      </a>
+                      <span className="text-slate-400 font-bold">/</span>
+                      <a
+                        href={`tel:${companyInfo.secondaryPhone.replace(/\s+/g, '')}`}
+                        className="text-slate-900 hover:text-brand-red font-extrabold text-sm"
+                        title="Secondary Phone"
+                      >
+                        {companyInfo.secondaryPhoneDisplay}
+                      </a>
+                    </div>
+                    <span className="text-[11px] text-slate-500">Available 9:00 AM to 8:30 PM (Mon - Sat)</span>
                   </div>
                 </div>
 

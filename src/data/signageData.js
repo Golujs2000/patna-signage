@@ -2,13 +2,14 @@ export const companyInfo = {
   name: "Patna Signage",
   tagline: "SIGNAGE • BRANDING • FABRICATION",
   subtitle: "Direct Factory Supply & Turnkey Installation Across Bihar & Jharkhand",
-  phone: "+91 99052 79579",
-  phoneDisplay: "+91 99052 79579",
-  secondaryPhone: "+91 93083 27111",
-  secondaryPhoneDisplay: "+91 93083 27111",
-  whatsappUrl: "https://wa.me/919905279579?text=Hi%20Patna%20Signage,%20I%20am%20interested%20in%20a%20signage%20quotation%20in%20Bihar/Jharkhand.",
+  phone: "+91 9308327111",
+  phoneDisplay: "+91 9308327111",
+  secondaryPhone: "+91 7070170040",
+  officeNumber: "+91 7488984637",
+  secondaryPhoneDisplay: "+91 7070170040",
+  whatsappUrl: "https://wa.me/919308327111?text=Hi%20Patna%20Signage,%20I%20am%20interested%20in%20a%20signage%20quotation%20in%20Bihar/Jharkhand.",
   email: "patnasignage786@gmail.com",
-  groupEmail: "kashishadpatna@gmail.com",
+  groupEmail: "patnasignage786@gmail.com",
   address: "Near Canara Bank, B1, Capital Tower, Fraser Rd, Patna, Bihar - 800001",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9270927880025!2d85.1362679!3d25.607338799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed590cad331c07%3A0x5736c6c58c592ab1!2sPATNA%20SIGNAGE!5e0!3m2!1sen!2sin!4v1790653290806!5m2!1sen!2sin",
   mapDirectUrl: "https://www.google.com/maps/search/?api=1&query=PATNA+SIGNAGE",
@@ -39,24 +40,26 @@ export const navLinks = [
 ];
 
 export const trustedClients = [
-  { name: "Larsen & Toubro (L&T)", category: "Infrastructure & EPC" },
-  { name: "Indian Oil Corporation", category: "Petroleum & Energy" },
-  { name: "Bharat Petroleum (BPCL)", category: "Energy & Retail" },
-  { name: "Indian Railways", category: "Transit & Public Sector" },
-  { name: "Apollo Diagnostics", category: "Healthcare" },
-  { name: "SRL Diagnostics", category: "Healthcare" },
-  { name: "Neuberg Diagnostics", category: "Diagnostics" },
-  { name: "Lupin Diagnostics", category: "Pharma & Diagnostics" },
-  { name: "Sony Entertainment Television", category: "Media & Entertainment" },
-  { name: "Pantaloons (Aditya Birla)", category: "Fashion & Retail" },
-  { name: "Mufti", category: "Apparel & Retail" },
-  { name: "Havells", category: "Electrical & Appliances" },
-  { name: "Reliance Cement", category: "Building Materials" },
-  { name: "Coca-Cola", category: "Beverages & FMCG" },
-  { name: "Swaraj Tractors", category: "Automotive" },
-  { name: "Kotak Life Insurance", category: "BFSI & Banking" },
-  { name: "TVS Motor Company", category: "Automotive" },
-  { name: "Finaq Aqua", category: "Packaged Water" }
+  { name: "State Bank of India (SBI)", category: "Banking & Financial Services", logo: "/assets/clients/sbi.svg" },
+  { name: "Life Insurance Corporation (LIC)", category: "BFSI & Insurance", logo: "/assets/clients/lic.svg" },
+  { name: "Larsen & Toubro (L&T)", category: "Infrastructure & EPC", logo: "/assets/clients/lt.svg" },
+  { name: "Indian Oil Corporation", category: "Petroleum & Energy", logo: "/assets/clients/indianoil.svg" },
+  { name: "Bharat Petroleum (BPCL)", category: "Energy & Retail", logo: "/assets/clients/bpcl.png" },
+  { name: "Indian Railways", category: "Transit & Public Sector", logo: "/assets/clients/railways.svg" },
+  { name: "Apollo Diagnostics", category: "Healthcare", logo: "/assets/clients/apollo.svg" },
+  { name: "SRL Diagnostics", category: "Healthcare", logo: "/assets/clients/srl.svg" },
+  { name: "Neuberg Diagnostics", category: "Diagnostics", logo: "/assets/clients/neuberg.svg" },
+  { name: "Lupin Diagnostics", category: "Pharma & Diagnostics", logo: "/assets/clients/lupin.svg" },
+  { name: "Sony Entertainment Television", category: "Media & Entertainment", logo: "/assets/clients/sony.png" },
+  { name: "Pantaloons (Aditya Birla)", category: "Fashion & Retail", logo: "/assets/clients/pantaloons.svg" },
+  { name: "Mufti", category: "Apparel & Retail", logo: "/assets/clients/mufti.svg" },
+  { name: "Havells", category: "Electrical & Appliances", logo: "/assets/clients/havells.svg" },
+  { name: "Reliance Cement", category: "Building Materials", logo: "/assets/clients/reliance.svg" },
+  { name: "Coca-Cola", category: "Beverages & FMCG", logo: "/assets/clients/cocacola.png" },
+  { name: "Swaraj Tractors", category: "Automotive", logo: "/assets/clients/swaraj.svg" },
+  { name: "Kotak Life Insurance", category: "BFSI & Banking", logo: "/assets/clients/kotak.png" },
+  { name: "TVS Motor Company", category: "Automotive", logo: "/assets/clients/tvs.svg" },
+  { name: "Finaq Aqua", category: "Packaged Water", logo: "/assets/clients/finaq.svg" }
 ];
 
 export const servicesData = [
@@ -257,6 +260,138 @@ export const servicesData = [
       "Bank Regional Headquarters",
       "Colleges, Universities & Libraries"
     ]
+  },
+  {
+    id: "offset-printing",
+    slug: "offset-printing",
+    title: "Commercial Offset Printing",
+    shortDesc: "High-volume multicolor commercial offset printing for corporate brochures, product catalogs, flyers, stationery, and premium retail packaging.",
+    fullDesc: "Backed by our 34-year commercial print heritage, Patna Signage delivers high-speed, precision 4-color and 5-color offset printing in Patna. From high-gsm art card corporate brochures and product catalogs to folded leaflets, luxury carton packaging, and official corporate stationery, our offset facility delivers unmatched ink consistency, micro-dot sharpness, and cost savings on large production volumes.",
+    image: "/assets/services/offset-printing.jpg",
+    badge: "High Volume",
+    priceRange: "From ₹0.45 per flyer / bulk run pricing",
+    turnaround: "2 - 5 Business Days",
+    features: [
+      "Heavy industrial multi-color sheetfed offset printing press",
+      "Vibrant CMYK + Pantone spot color ink consistency",
+      "Substrates from 70 GSM maplitho to 400 GSM art card & duplex board",
+      "Matte, gloss thermal lamination, aqueous varnish, and UV spot coatings",
+      "Automated computer-to-plate (CTP) prepress for flawless sharpness",
+      "Die-punching, creasing, foil stamping, and wire-o binding options"
+    ],
+    specs: [
+      { label: "Printing Technology", value: "Multi-Color Sheetfed Offset (CTP Prepress)" },
+      { label: "Paper Range", value: "70 GSM to 450 GSM (Art Paper, Ivory, Metpet, Duplex)" },
+      { label: "Max Sheet Size", value: "28\" x 40\" Full Imperial Sheet" },
+      { label: "Finishing Effects", value: "Spot UV, Gold/Silver Foiling, Drip-Off, Embossing" },
+      { label: "Minimum Run", value: "500 to 1,00,000+ Units" }
+    ],
+    applications: [
+      "Corporate Product Catalogs & Company Profiles",
+      "Promotional Flyers, Pamphlets & Leaflets",
+      "Luxury Product Packaging Boxes & Cartons",
+      "School Prospectuses, Magazines & Annual Reports",
+      "Business Cards, Letterheads & Envelopes"
+    ]
+  },
+  {
+    id: "flex-banner-printing",
+    slug: "flex-banner-printing",
+    title: "Flex & Banner Printing",
+    shortDesc: "Heavy-duty outdoor frontlit and backlit flex printing, roadside hoardings, event backdrops, and promotional banners with rapid turnaround.",
+    fullDesc: "The premier solution for high-visibility outdoor advertising across Patna and Bihar. Our heavy roll-to-roll flex printing lines produce weather-resistant banners, event backdrops, roadside hoardings, and election/promotional campaign flex. Fabricated with premium Korean/Star flex substrates and heavy-pigment solvent inks that resist rain, wind, and harsh sun fading.",
+    image: "/assets/services/flex-banner-printing.jpg",
+    badge: "Fast Turnaround",
+    priceRange: "₹8 - ₹25 per sq. ft.",
+    turnaround: "Same Day / 24 Hours",
+    features: [
+      "Frontlit Star Flex (280 to 440 GSM) and Backlit Flex (550 GSM)",
+      "High-output outdoor solvent printing with UV and rain resistance",
+      "Heavy-duty brass eyelets, welded rod pockets, and reinforced perimeter hems",
+      "Wide-format seamless printing widths up to 10.5 feet without joints",
+      "Ultra-fast same-day emergency dispatch for urgent retail campaigns",
+      "On-site mounting and iron frame fabrication available across Patna"
+    ],
+    specs: [
+      { label: "Substrate Type", value: "Normal Flex, Star Flex, Backlit, Blackout Flex" },
+      { label: "Substrate Weight", value: "280 GSM to 550 GSM" },
+      { label: "Max Seamless Width", value: "Up to 3.2 Meters (10.5 Feet) Roll Width" },
+      { label: "Outdoor Durability", value: "1 - 3 Years Weather Resistance" },
+      { label: "Hemming & Eyelets", value: "Ultrasonic / Hot-Wedge Hemming & Brass Eyelets" }
+    ],
+    applications: [
+      "Highway Hoardings & Billboard Advertisements",
+      "Event Backdrops & Stage Backgrounds",
+      "Retail Shop Front Promotional Banners",
+      "Real Estate Site Boundary Hoardings",
+      "Exhibition & Political Campaign Banners"
+    ]
+  },
+  {
+    id: "digital-flex-printing",
+    slug: "digital-flex-printing",
+    title: "Digital Flex & Eco-Solvent Printing",
+    shortDesc: "High-definition 1440 DPI digital eco-solvent printing on backlit flex, fabric, and canvas with rich photo-grade clarity and odourless inks.",
+    fullDesc: "When your brand graphics demand razor-sharp clarity without the grain of traditional solvent printing, our Digital Flex & Eco-Solvent printing delivers perfection. Utilizing Epson DX5/i3200 micro-piezo printheads and eco-friendly odourless inks, we print photographic quality imagery suitable for indoor showroom lightboxes, corporate gallery displays, and high-end retail backlit boxes.",
+    image: "/assets/services/digital-flex-printing.jpg",
+    badge: "1440 DPI HD",
+    priceRange: "₹18 - ₹45 per sq. ft.",
+    turnaround: "1 - 2 Business Days",
+    features: [
+      "Genuine 1440 DPI photo-realistic micro-piezo printing resolution",
+      "Environmentally friendly, low-VOC odourless eco-solvent inks",
+      "Smooth gradations, fine text rendering, and true deep blacks",
+      "Backlit translucent flex for zero-hotspot LED light distribution",
+      "Compatible with cotton canvas, backlit film, and specialty synthetic media",
+      "Scratch-resistant finish with optional matte or glossy protective overcoat"
+    ],
+    specs: [
+      { label: "Resolution", value: "Up to 1440 x 1440 DPI Micro-Piezo" },
+      { label: "Ink Chemistry", value: "Low-VOC Eco-Solvent / UV-Curable" },
+      { label: "Media Compatibility", value: "Backlit Flex, Satin Fabric, Canvas, Synthetic Paper" },
+      { label: "Color Gamut", value: "Expanded CMYK with High Pigment Load" },
+      { label: "Indoor Lifespan", value: "5+ Years Without Fading" }
+    ],
+    applications: [
+      "Showroom LED Backlit Box Graphics",
+      "Hospital & Clinic Educational Lightboxes",
+      "Corporate Office Wall Murals & Canvas Art",
+      "Jewellery & Fashion Close-Up Retail Displays",
+      "Architectural Presentation Displays"
+    ]
+  },
+  {
+    id: "vinyl-printing",
+    slug: "vinyl-printing",
+    title: "Vinyl Printing & Custom Branding",
+    shortDesc: "Self-adhesive cast vinyl, 3M frosted glass film, one-way vision mesh, floor graphics, and vehicle fleet branding with protective lamination.",
+    fullDesc: "Precision self-adhesive vinyl solutions for glass, walls, floors, and commercial vehicle fleets. We print and computer-contour cut vinyl using 3M, Avery Dennison, and LG Hausys premium media. Finished with cold-seal matte or gloss lamination, our vinyl graphics resist abrasion, chemical cleaners, and solar radiation for long-term interior and exterior branding.",
+    image: "/assets/services/vinyl-printing.jpg",
+    badge: "Premium Finish",
+    priceRange: "₹25 - ₹75 per sq. ft.",
+    turnaround: "1 - 3 Business Days",
+    features: [
+      "Premium cast & polymeric self-adhesive vinyl substrates",
+      "Optical-grade cold lamination (Matte, Gloss, or Anti-Graffiti)",
+      "One-way vision perforated mesh for showroom windows & glass facades",
+      "3M Dusted & frosted decorative vinyl for executive office partitions",
+      "Plotter contour die-cutting for standalone logo stickers and decals",
+      "Air-release bubble-free adhesive channels for smooth bubble-free finish"
+    ],
+    specs: [
+      { label: "Substrate Brands", value: "3M, Avery Dennison, Star Vinyl, LG Hausys" },
+      { label: "Lamination Thickness", value: "80 - 100 Micron Polymeric Cold Lamination" },
+      { label: "Adhesive Type", value: "Removable / Permanent Solvent Acrylic Adhesive" },
+      { label: "Specialty Options", value: "One-Way Vision, Frosted, Reflective, Floor Graphic" },
+      { label: "Precision Cutting", value: "Computerized Optical Eye Vinyl Plotter" }
+    ],
+    applications: [
+      "Retail Glass Door & Window Manifestations",
+      "Corporate Glass Partition Frosted Privacy Bands",
+      "Commercial Vehicle & Delivery Fleet Wraps",
+      "Floor Graphic Directional Markers & Decals",
+      "Direct Sunboard / ACP Sheet Vinyl Pasting"
+    ]
   }
 ];
 
@@ -386,6 +521,42 @@ export const signageTypes = [
     desc: "Reflective hazard warnings, fire exit glow boards, and factory safety guidelines.",
     specs: "3M Retroreflective • ACP Substrate • Chemical Resistant",
     price: "From ₹120 / unit"
+  },
+  {
+    id: "commercial-offset",
+    name: "Commercial Offset Printing",
+    category: "Printing & Media",
+    image: "/assets/services/offset-printing.jpg",
+    desc: "High-volume 4-color offset printing for corporate catalogs, brochures, folders, and luxury retail cartons.",
+    specs: "Heidelberg Speedmaster • CTP Plates • 70-400 GSM • Spot UV",
+    price: "From ₹0.45 / unit"
+  },
+  {
+    id: "flex-banners",
+    name: "Flex Banners & Hoardings",
+    category: "Printing & Media",
+    image: "/assets/services/flex-banner-printing.jpg",
+    desc: "Heavy outdoor frontlit & backlit flex banners, eyeleted hoardings, and event backdrops with rainproof inks.",
+    specs: "280-550 GSM Star Flex • Solvent Outdoor Inks • Welded Hems",
+    price: "From ₹8 / sq. ft."
+  },
+  {
+    id: "digital-eco-flex",
+    name: "Digital Eco-Solvent Flex",
+    category: "Printing & Media",
+    image: "/assets/services/digital-flex-printing.jpg",
+    desc: "Ultra-sharp 1440 DPI photographic eco-solvent printing on backlit flex and canvas for luxury showrooms.",
+    specs: "1440 DPI Micro-Piezo • Odourless Eco-Inks • Backlit Translucent",
+    price: "From ₹18 / sq. ft."
+  },
+  {
+    id: "adhesive-vinyl",
+    name: "Self-Adhesive Vinyl & One-Way Vision",
+    category: "Printing & Media",
+    image: "/assets/services/vinyl-printing.jpg",
+    desc: "Branded glass manifestations, frosted office privacy films, vehicle fleet graphics, and laminated decals.",
+    specs: "3M / Avery Vinyl • Matte/Gloss Lamination • Contour Cut",
+    price: "From ₹25 / sq. ft."
   }
 ];
 
@@ -461,6 +632,24 @@ export const portfolioProjects = [
     image: "/assets/services/neon-flex.jpg",
     desc: "Complete exterior elevation with custom LED Neon Flex branding, architectural CNC Jali screens, and warm cove lighting.",
     clientType: "Hospitality"
+  },
+  {
+    id: 9,
+    title: "State Bank of India (SBI) Fraser Road Regional Branch & ATM",
+    category: "Corporate",
+    location: "Fraser Road & Bailey Road, Patna",
+    image: "/assets/services/led-signage.jpg",
+    desc: "Standardized SBI blue ACP facade elevations, acrylic 3D LED glow signage, ATM directional totems, and interior customer lobby wayfinding.",
+    clientType: "BFSI & Public Sector Banking"
+  },
+  {
+    id: 10,
+    title: "Life Insurance Corporation (LIC) Divisional Center",
+    category: "ACP Signage",
+    location: "Exhibition Road & Fraser Road, Patna",
+    image: "/assets/services/acp-signage.jpg",
+    desc: "Large-format exterior structural ACP cladding with push-through acrylic lettering, regulatory bilingual safety signage, and training hall branding.",
+    clientType: "BFSI & Public Sector Insurance"
   }
 ];
 
@@ -468,38 +657,38 @@ export const machineryData = [
   {
     title: "1.5 kW Fiber Laser Metal Cutting Machine",
     desc: "Precision micro-cutting and burr-free profiling of SS 304 Stainless Steel, Titanium Gold, Brass, Copper, and Aluminium sheets.",
-    image: "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+    image: "/assets/machinery/fiber-laser-cutting.jpg",
     stat: "1.5 kW Fiber Laser"
   },
   {
     title: "High-Speed Industrial CNC Router (8ft x 4ft)",
     desc: "Heavy-duty 4.5kW Italian spindle for 3D routing, cutting, and carving of ACP, Acrylic, Wood, MDF, and Aluminium partitions.",
-    image: "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80",
+    image: "/assets/machinery/cnc-router.jpg",
     stat: "3D CNC Precision"
   },
   {
-    title: "Automatic Channel Letter Bender",
+    title: "Automatic Channel Letter Fabrication & Bending",
     desc: "Robotic computer-controlled bending and flanging of aluminium and stainless steel returns with seamless joint accuracy.",
-    image: "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+    image: "/assets/machinery/channel-letter-bending.jpg",
     stat: "100% CAD Robotic"
   },
   {
-    title: "HP Latex 570 Wide Format Printer",
-    desc: "Photo-grade outdoor graphics up to 1200 x 1200 DPI using scratch-resistant, water-based ecological latex inks.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80",
+    title: "Industrial Wide-Format Digital Roll Printer",
+    desc: "Photo-grade outdoor graphics up to 1200 x 1200 DPI using scratch-resistant, weather-proof ecological signage inks.",
+    image: "/assets/machinery/wide-format-printer.jpg",
     stat: "1200 x 1200 DPI"
   },
   {
-    title: "UV Flatbed & Roll-to-Roll UV Printer",
+    title: "Océ Arizona UV Flatbed Substrate Printer",
     desc: "Direct UV-curable printing on rigid substrates (acrylic, glass, wood, sunboard, ACP) and roll-to-roll backlit substrates.",
-    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+    image: "/assets/machinery/uv-flatbed-printer.jpg",
     stat: "Direct UV Bed"
   },
   {
-    title: "Roland Print & Cut & Sky Plotter System",
-    desc: "High-throughput contour vinyl graphics cutting, frosted privacy films, decals, sandblasting stencils, and roll lamination.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
-    stat: "High-Speed Contour"
+    title: "Precision Micro-Seam Laser & TIG Letter Welder",
+    desc: "Automated low-heat seam welding for 3D titanium gold and SS 304 channel letters without burn marks or discoloration.",
+    image: "/assets/machinery/laser-welding.jpg",
+    stat: "Zero-Burn Seam"
   }
 ];
 

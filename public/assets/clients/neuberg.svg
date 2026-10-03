@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <!-- Ribbon N emblem -->
+  <path d="M 16 54 L 16 22 L 26 22 L 36 40 L 36 22 L 44 22 L 44 54 L 34 54 L 24 36 L 24 54 Z" fill="#800020"/>
+  <circle cx="48" cy="22" r="3.5" fill="#e63946"/>
+  <!-- Text -->
+  <text x="56" y="38" font-family="'Inter', sans-serif" font-weight="800" font-size="22" fill="#800020" letter-spacing="0.5">Neuberg</text>
+  <text x="58" y="54" font-family="'Inter', sans-serif" font-weight="600" font-size="10.5" fill="#4a5568" letter-spacing="1.5">DIAGNOSTICS</text>
+</svg>

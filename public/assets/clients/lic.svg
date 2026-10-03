@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="licGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffc72c"/>
+      <stop offset="100%" stop-color="#e59d00"/>
+    </linearGradient>
+  </defs>
+  <!-- LIC Emblem: Blue shield with golden protective hands and lamp flame -->
+  <g transform="translate(12, 10)">
+    <!-- Deep Navy Rounded Container -->
+    <rect x="0" y="0" width="58" height="58" rx="8" fill="#003366"/>
+    <!-- Outer flame -->
+    <path d="M 29 11 C 32 19 35 23 35 27 C 35 32 32 34 29 34 C 26 34 23 32 23 27 C 23 23 26 19 29 11 Z" fill="url(#licGoldGrad)"/>
+    <!-- Inner bright flame center -->
+    <path d="M 29 16 C 30.5 20.5 32 23.5 32 26 C 32 28.5 30.5 30 29 30 C 27.5 30 26 28.5 26 26 C 26 23.5 27.5 20.5 29 16 Z" fill="#ffffff" opacity="0.9"/>
+    <!-- Left cupping hand -->
+    <path d="M 10 31 C 12 40 20 46 27 46 L 27 41 C 22 41 16 37 14 30 Z" fill="url(#licGoldGrad)"/>
+    <!-- Right cupping hand -->
+    <path d="M 48 31 C 46 40 38 46 31 46 L 31 41 C 36 41 42 37 44 30 Z" fill="url(#licGoldGrad)"/>
+    <!-- Base / Diya bowl -->
+    <path d="M 22 34 L 36 34 C 35 38 32 40 29 40 C 26 40 23 38 22 34 Z" fill="url(#licGoldGrad)"/>
+  </g>
+  <!-- Brand Text -->
+  <text x="78" y="35" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="24" fill="#003366" letter-spacing="1.5">LIC</text>
+  <text x="80" y="49" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="8" fill="#e59d00" letter-spacing="0.8">LIFE INSURANCE CORP</text>
+  <text x="80" y="60" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="7.5" fill="#666666" letter-spacing="0.4">भारतीय जीवन बीमा निगम</text>
+</svg>

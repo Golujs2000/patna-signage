@@ -175,16 +175,26 @@ export default function Home() {
             {trustedClients.slice(0, 12).map((client, idx) => (
               <div 
                 key={idx}
-                className="bg-white border border-slate-200 hover:border-brand-red/40 rounded-xl p-3 text-center transition-all shadow-sm hover:shadow"
+                className="group bg-white border border-slate-200 hover:border-brand-red/40 rounded-xl p-3 text-center transition-all shadow-sm hover:shadow flex flex-col justify-between items-center min-h-[110px]"
               >
-                <div className="text-xs font-bold text-slate-900 line-clamp-1">{client.name}</div>
-                <div className="text-[10px] text-slate-500 mt-0.5 line-clamp-1">{client.category}</div>
+                <div className="h-10 w-full flex items-center justify-center p-1">
+                  <img
+                    src={client.logo}
+                    alt={`${client.name} logo`}
+                    className="max-h-8 max-w-[90px] w-auto object-contain group-hover:scale-105 transition-transform"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="w-full mt-1.5 pt-1.5 border-t border-slate-100">
+                  <div className="text-[11px] font-bold text-slate-900 line-clamp-1 group-hover:text-brand-red transition-colors">{client.name}</div>
+                  <div className="text-[9px] text-slate-500 line-clamp-1">{client.category}</div>
+                </div>
               </div>
             ))}
           </div>
 
           <div className="mt-4 pt-3 border-t border-slate-200/80 flex flex-wrap items-center justify-between text-xs text-slate-500 gap-2">
-            <span>Also serving: TVS Motor, Havells, Reliance Cement, Coca-Cola, Swaraj Tractors, Kotak Life Insurance, Mufti, Stori</span>
+            <span>Also serving: State Bank of India (SBI), LIC, TVS Motor, Havells, Reliance Cement, Coca-Cola, Swaraj Tractors, Kotak Life, Mufti</span>
             <Link to="/about" className="text-brand-red font-bold hover:underline inline-flex items-center gap-1">
               <span>View Client Portfolio</span>
               <ArrowRight className="w-3.5 h-3.5" />
@@ -407,17 +417,22 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {machineryData.slice(0, 2).map((machine, idx) => (
-              <div key={idx} className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-md">
-                <img
-                  src={machine.image}
-                  alt={`${machine.title} - Patna Signage CNC Factory`}
-                  className="w-full h-44 object-cover"
-                />
-                <div className="p-4 space-y-1">
-                  <span className="text-[10px] font-bold text-brand-red uppercase">{machine.stat}</span>
-                  <h4 className="text-sm font-bold text-slate-900">{machine.title}</h4>
-                  <p className="text-[11px] text-slate-500">{machine.desc}</p>
+            {machineryData.slice(0, 4).map((machine, idx) => (
+              <div key={idx} className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-md group hover:shadow-lg transition-all">
+                <div className="relative overflow-hidden bg-slate-900">
+                  <img
+                    src={machine.image}
+                    alt={`${machine.title} - Patna Signage CNC Factory`}
+                    className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                  <div className="absolute top-2 left-2 bg-slate-950/85 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-bold text-white border border-white/10 shadow">
+                    {machine.stat}
+                  </div>
+                </div>
+                <div className="p-3.5 space-y-1">
+                  <h4 className="text-xs font-bold text-slate-900 group-hover:text-brand-red transition-colors line-clamp-1">{machine.title}</h4>
+                  <p className="text-[11px] text-slate-500 line-clamp-2 leading-relaxed">{machine.desc}</p>
                 </div>
               </div>
             ))}

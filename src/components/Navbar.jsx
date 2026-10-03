@@ -36,16 +36,27 @@ export default function Navbar() {
             <span className="text-slate-300">•</span>
             <span className="text-slate-600 font-medium">{companyInfo.subtitle}</span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <span>Hours: {companyInfo.hours}</span>
             <span className="text-slate-300">•</span>
-            <a 
-              href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`} 
-              className="text-slate-900 hover:text-brand-red transition-colors font-bold flex items-center gap-1.5"
-            >
-              <Phone className="w-3.5 h-3.5 text-brand-red" />
-              {companyInfo.phoneDisplay}
-            </a>
+            <div className="flex items-center gap-1.5 font-bold">
+              <Phone className="w-3.5 h-3.5 text-brand-red shrink-0" />
+              <a 
+                href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`} 
+                className="text-slate-900 hover:text-brand-red transition-colors"
+                title="Call Primary Hotline"
+              >
+                {companyInfo.phoneDisplay}
+              </a>
+              <span className="text-slate-300 font-normal">/</span>
+              <a 
+                href={`tel:${companyInfo.secondaryPhone.replace(/\s+/g, '')}`} 
+                className="text-slate-900 hover:text-brand-red transition-colors"
+                title="Call Secondary Hotline"
+              >
+                {companyInfo.secondaryPhoneDisplay}
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -202,13 +213,22 @@ export default function Navbar() {
           </div>
 
           <div className="pt-4 border-t border-slate-100 flex flex-col gap-2">
-            <a
-              href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`}
-              className="w-full text-center py-2.5 rounded-lg bg-slate-100 text-slate-800 text-xs font-bold flex items-center justify-center gap-2 hover:bg-slate-200"
-            >
-              <Phone className="w-4 h-4 text-brand-red" />
-              Call Now: {companyInfo.phoneDisplay}
-            </a>
+            <div className="grid grid-cols-2 gap-2">
+              <a
+                href={`tel:${companyInfo.phone.replace(/\s+/g, '')}`}
+                className="w-full text-center py-2.5 rounded-lg bg-slate-100 text-slate-800 text-[11px] font-bold flex items-center justify-center gap-1.5 hover:bg-slate-200"
+              >
+                <Phone className="w-3.5 h-3.5 text-brand-red shrink-0" />
+                <span className="truncate">{companyInfo.phoneDisplay}</span>
+              </a>
+              <a
+                href={`tel:${companyInfo.secondaryPhone.replace(/\s+/g, '')}`}
+                className="w-full text-center py-2.5 rounded-lg bg-slate-100 text-slate-800 text-[11px] font-bold flex items-center justify-center gap-1.5 hover:bg-slate-200"
+              >
+                <Phone className="w-3.5 h-3.5 text-brand-red shrink-0" />
+                <span className="truncate">{companyInfo.secondaryPhoneDisplay}</span>
+              </a>
+            </div>
             <Link
               to="/contact"
               className="w-full text-center py-2.5 rounded-lg bg-brand-red text-white text-xs font-bold shadow-md shadow-brand-red/30"
