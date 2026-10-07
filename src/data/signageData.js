@@ -392,6 +392,501 @@ export const servicesData = [
       "Floor Graphic Directional Markers & Decals",
       "Direct Sunboard / ACP Sheet Vinyl Pasting"
     ]
+  },
+  {
+    id: "neon-signs",
+    slug: "neon-signs",
+    title: "Custom LED Neon Signs & Neon Art",
+    shortDesc: "Ultra-vibrant 12V flexible silicone LED neon signs for cafes, restaurants, boutique bedrooms, wedding backdrops, and corporate office branding.",
+    fullDesc: "Bring warmth, vibrancy, and viral social media appeal to your space with handcrafted custom LED neon signs manufactured in Patna. Fabricated using high-grade flexible silicone neon flex mounted on 6mm–8mm optical cast acrylic backplates (transparent, mirror, or matte black). Engineered with energy-efficient 12V DC power supplies, optional multi-mode RF dimmer remotes, and over 15+ radiant colors, our neon signs deliver 50,000+ hours of continuous, shatterproof brilliance with zero glass breakage risk.",
+    image: "/assets/services/neon-flex.jpg",
+    badge: "Trending & Viral",
+    priceRange: "From ₹350 per letter / ₹1,200 per sq. ft.",
+    turnaround: "2 - 4 Business Days",
+    features: [
+      "Flexible food-grade silicone LED neon tubing (safe, cool to touch, shatterproof)",
+      "6mm to 8mm heavy laser-cut cast acrylic backing (contour-cut or geometric)",
+      "12V safe low-voltage operation with CE/ROHS certified power adapters",
+      "Available with multi-mode RF remote controller (dimming, flashing, pulsing)",
+      "15+ vivid colors including Warm White, Ice Blue, Pink, Purple, & RGB Chasing",
+      "Pre-drilled mounting holes with stainless steel standoff hardware included"
+    ],
+    specs: [
+      { label: "Substrate", value: "6mm / 8mm Cast Acrylic (Clear, Mirror Gold, Black)" },
+      { label: "Neon Tubing", value: "6mm x 12mm / 8mm x 16mm Food-Grade Silicone" },
+      { label: "Voltage & Power", value: "12V DC with MeanWell / Standalone Adapter" },
+      { label: "Lifespan", value: "50,000+ Burning Hours" },
+      { label: "Mounting", value: "SS Standoff Screws / Stainless Steel Hanging Wire" }
+    ],
+    applications: [
+      "Cafes, Bistros, Lounge Bars & Resto-Pubs",
+      "Retail Fashion Boutiques & Beauty Salons",
+      "Instagram Photo Booths & Wedding Stages",
+      "Corporate Office Reception & Chillout Zones",
+      "Personal Bedroom Decor & Custom Name Signs"
+    ]
+  },
+  {
+    id: "corporate-mementos",
+    slug: "corporate-mementos",
+    title: "Corporate Mementos & Felicitation Plaques",
+    shortDesc: "Bespoke wooden, brass, and acrylic mementos, appreciation shields, and institutional felicitation plaques with precision laser engraving.",
+    fullDesc: "Celebrate leadership, service milestones, and academic distinction with Patna Signage's premium mementos and felicitation plaques. We manufacture hand-polished solid mahogany, teakwood, and MDF plaques accented with laser-etched golden brass crests, sublimation metal sheets, and diamond-polished acrylic shields. Designed for government convocations, banking felicitation ceremonies, corporate retirement honors, and annual conferences across Bihar.",
+    image: "/assets/services/corporate-mementos.jpg",
+    badge: "Institutional Choice",
+    priceRange: "₹250 - ₹2,500 per unit (Bulk discounts)",
+    turnaround: "2 - 4 Business Days",
+    features: [
+      "Hand-finished natural seasoned teakwood, mahogany, and rosewood bases",
+      "High-precision fiber laser engraving and vibrant full-color UV flatbed printing",
+      "Brushed gold, mirror silver, and antique bronze sublimation metal plates",
+      "10mm to 20mm bevel-cut crystal acrylic floating shields with gold studs",
+      "Velvet-lined luxury presentation gift boxes available for every unit",
+      "Complete customization with institutional logos, signatures, and recipient names"
+    ],
+    specs: [
+      { label: "Base Material", value: "Seasoned Hardwood / High-Density MDF / Acrylic" },
+      { label: "Metal Accents", value: "Sublimation Anodized Brass & Aluminium Plates (0.8mm)" },
+      { label: "Engraving Tech", value: "1.5kW Fiber Laser / UV Flatbed Color Print" },
+      { label: "Finish", value: "Polyurethane High-Gloss / Satin Matte Lacquer" },
+      { label: "Packaging", value: "Satin Velvet Presentation Box Included (Optional)" }
+    ],
+    applications: [
+      "Government & PSU Felicitation Ceremonies (SBI, LIC, Railways)",
+      "University Convocations & School Annual Days",
+      "Corporate Milestone & Employee Long-Service Awards",
+      "Medical Seminars & Doctor Honor Plaques",
+      "Sports Meet Chief Guest & Dignitary Souvenirs"
+    ]
+  },
+  {
+    id: "sports-trophies",
+    slug: "sports-trophies",
+    title: "Trophies & Sports Championship Awards",
+    shortDesc: "Heavy metallic cups, multi-tier gold & silver trophies, championship awards, and tournament medals with custom engraved base plates.",
+    fullDesc: "From inter-school cricket tournaments to prestigious corporate sports leagues, Patna Signage supplies an exhaustive catalog of metallic, wooden, and composite trophies. Featuring imported electroplated Italian-style championship cups, gleaming multi-pillar column trophies, heavy black marble plinths, and custom die-cast medals with personalized ribbons. Fast turnaround and direct factory bulk supply across Patna and all 38 Bihar districts.",
+    image: "/assets/services/sports-trophies.jpg",
+    badge: "Factory Direct",
+    priceRange: "₹120 - ₹4,500 per trophy",
+    turnaround: "1 - 3 Business Days",
+    features: [
+      "Heavy mirror gold, rose gold, and chrome electroplated metal cups",
+      "Solid black marble, polished granite, and wooden weighted bases",
+      "Single, double, and multi-tier architectural column configurations up to 4 feet tall",
+      "Free customized golden brass plates with event branding and recipient details",
+      "Sports-specific tops: Cricket, Football, Badminton, Athletics, Karate, Chess, & Academics",
+      "Die-cast gold, silver, and bronze medals with custom satin neck ribbons"
+    ],
+    specs: [
+      { label: "Cup Material", value: "Spun Metal / Electroplated ABS Composite" },
+      { label: "Base", value: "Natural Black Marble / Solid Wood Block" },
+      { label: "Height Range", value: "6 inches to 48 inches (4 Feet Grand Champions)" },
+      { label: "Customization", value: "Metal Plate Engraving / Sublimation Multi-Color Print" },
+      { label: "Delivery", value: "Bulk packaging in protective foam cases" }
+    ],
+    applications: [
+      "School, College & University Sports Meets",
+      "Corporate Cricket, Football & Badminton Leagues",
+      "Academic Excellence & Debate Competitions",
+      "Marathon, Half-Marathon & Cycling Finisher Medals",
+      "Club Tournaments & District Sports Federations"
+    ]
+  },
+  {
+    id: "customize-trophies",
+    slug: "customize-trophies",
+    title: "Customize Trophies & Bespoke Awards",
+    shortDesc: "100% custom-designed 3D trophies manufactured to your exact brand logo, bespoke geometric silhouette, and material combinations.",
+    fullDesc: "Break away from generic off-the-shelf trophies with our bespoke award fabrication service. Using in-house 1.5kW fiber laser cutting, 3D CNC routing, and multi-layer acrylic and metal fabrication, we transform your company logo, product silhouette, or corporate emblem into a one-of-a-kind sculptural masterpiece. Ideal for national corporate galas, startup pitch summits, creative industry awards, and television broadcasts.",
+    image: "/assets/services/custom-trophies.jpg",
+    badge: "100% Bespoke",
+    priceRange: "₹450 - ₹5,500 per unit (CAD proof included)",
+    turnaround: "4 - 7 Business Days",
+    features: [
+      "Complete 3D CAD design mockup and digital proofing before production",
+      "Multi-material fusion: Cast Acrylic, SS 304 Stainless Steel, Wood & Brass",
+      "Intricate laser contour cutting matching your brand emblem down to 0.1mm",
+      "Direct UV flatbed texture printing, gold leafing, and 3D push-through layers",
+      "Heavy CNC-milled anodized aluminium or weighted piano-finish wooden plinths",
+      "Individual serial numbering and personalized laser micro-etching"
+    ],
+    specs: [
+      { label: "Fabrication", value: "Fiber Laser Cutting + CNC Routing + UV Bed Inks" },
+      { label: "Materials", value: "SS-304, Cast Acrylic (A-grade), Teakwood, Anodized Aluminium" },
+      { label: "Tolerances", value: "±0.1mm High-Precision Vector Machining" },
+      { label: "Finishes", value: "PVD Titanium Gold, Brushed Hairline, Frost Matte, Gloss Clear" },
+      { label: "Minimum Order", value: "From 1 unit to 1,000+ units" }
+    ],
+    applications: [
+      "Corporate Annual Gala & Town Hall Awards",
+      "Startup Pitch Competitions & Hackathons",
+      "Banking & Insurance Top Performer Recognition",
+      "Real Estate & Architecture Design Awards",
+      "Media, Film & Music Award Ceremonies"
+    ]
+  },
+  {
+    id: "crystal-awards",
+    slug: "crystal-awards",
+    title: "Crystal Awards & 3D Laser Etched Trophies",
+    shortDesc: "Flawless optical K9 crystal awards with diamond-beveled edges, 3D internal laser subsurface etching, and deep sandblast engraving.",
+    fullDesc: "The gold standard for executive achievement and timeless prestige. Our crystal awards are cut from high-density optical grade K9 crystal, celebrated for exceptional clarity, refractive brilliance, and substantial weight. Featuring 3D green-laser subsurface etching that suspends 3D globes, logos, and portraits permanently inside the heart of the glass without surface damage, finished on beveled black crystal or mirror pedestals.",
+    image: "/assets/services/crystal-awards.jpg",
+    badge: "Executive Luxury",
+    priceRange: "₹650 - ₹6,000 per award",
+    turnaround: "3 - 5 Business Days",
+    features: [
+      "Pure K9 optical crystal (lead-free, bubble-free, ultra-transparent)",
+      "3D laser subsurface internal engraving with micro-point density",
+      "Multi-faceted diamond, iceberg, obelisk, flame, and octagon silhouettes",
+      "Color-fill sandblast surface engraving (Gold, Silver, Cobalt Blue, Red)",
+      "Refractive beveled prisms that create mesmerizing rainbow light dispersion",
+      "Lined satin gift box with magnetic closure included with every crystal"
+    ],
+    specs: [
+      { label: "Crystal Grade", value: "K9 Optical Grade Crystal (Specific Gravity 2.51)" },
+      { label: "Etching Method", value: "Sub-surface Green Laser 3D Engraving + Sandblast" },
+      { label: "Thickness", value: "20mm to 50mm Solid Crystal Block" },
+      { label: "Base", value: "Integrated Black Optical Crystal / Solid Granite Plinth" },
+      { label: "Gift Case", value: "Blue / Red Satin Padded Magnetic Presentation Box" }
+    ],
+    applications: [
+      "Executive C-Suite & Board of Directors Recognition",
+      "Lifetime Achievement & Hall of Fame Accolades",
+      "Global Corporate Partnership & Deal-Closing Mementos",
+      "Healthcare & Medical Pioneer Awards",
+      "University Dean & Chancellor Distinctions"
+    ]
+  },
+  {
+    id: "clipon-boards",
+    slug: "clipon-boards",
+    title: "LED Clip-On Boards & Snap Frames",
+    shortDesc: "Ultra-thin aluminum snap-frame LED lightboxes for quick poster changes, restaurant food menus, and retail promotional graphics.",
+    fullDesc: "Patna Signage manufactures modern LED Clip-On Boards (Snap Frame Lightboxes) engineered for rapid graphic updates in under 30 seconds. Featuring precision spring-loaded extruded aluminum borders, edge-lit laser dot-matrix light guide plates (LGP), and high-output LED arrays, these boards distribute bright, uniform light with zero dark spots or glare. Standard sizes from A4, A3, A2, A1, up to A0 and custom dimensions.",
+    image: "/assets/services/clipon-boards.jpg",
+    badge: "Fast Poster Swap",
+    priceRange: "₹850 - ₹6,500 per frame (Size dependent)",
+    turnaround: "1 - 3 Business Days",
+    features: [
+      "4-side spring-hinged snap frame enables graphic changes without tools",
+      "Ultra-slim profile (only 15mm to 20mm overall thickness)",
+      "Laser-etched optical acrylic Light Guide Plate (LGP) for 100% even glow",
+      "High-lumen SMD 2835 edge LEDs with 50,000+ burning hours life",
+      "Anti-glare UV-resistant clear protective PET / PVC front sheet included",
+      "Wall-mount bracket holes and optional ceiling suspension wires"
+    ],
+    specs: [
+      { label: "Frame Profile", value: "Anodized Aluminium (Silver, Matte Black, Champagne Gold)" },
+      { label: "Frame Depth", value: "15mm Ultra-Slim Profile" },
+      { label: "Face Sheet", value: "0.5mm Anti-Glare Flexible Clear Protective Lens" },
+      { label: "Light Source", value: "High CRI (>80) Edge-Lit LEDs (6500K Cool / 4000K Natural)" },
+      { label: "Standard Sizes", value: "A4, A3, A2, A1, A0, 2ft x 3ft, 3ft x 4ft, & Custom" }
+    ],
+    applications: [
+      "Quick-Service Restaurants (QSR) & Cafe Fast-Food Menu Boards",
+      "Cinema, Multiplex & Theatre Movie Poster Displays",
+      "Retail Garment, Electronics & Mobile Brand Showrooms",
+      "Hospital & Diagnostic Clinic Rate Charts & Doctors Rosters",
+      "Corporate Office Notices & Lift Lobby Promotional Displays"
+    ]
+  },
+  {
+    id: "slim-photo-frames",
+    slug: "slim-photo-frames",
+    title: "Slim LED Photo Frames & Lightboxes",
+    shortDesc: "Magnetic frameless and beveled edge-lit acrylic photo frames with radiant backlit glow for portraits, certificates, and luxury decor.",
+    fullDesc: "Elevate personal memories, milestone portraits, and corporate awards into glowing works of art. Our Slim LED Photo Frames feature crystal-clear cast acrylic faces with laser-chamfered edges that project a soft halo effect onto the wall. Available in magnetic front-load and floating standoff configurations, these slim 12mm frames offer whisper-thin elegance and warm, museum-quality illumination.",
+    image: "/assets/services/slim-photo-frames.jpg",
+    badge: "Halo Edge Glow",
+    priceRange: "₹650 - ₹4,800 per unit",
+    turnaround: "2 - 4 Business Days",
+    features: [
+      "Ultra-thin 10mm–14mm frameless acrylic sandwich design",
+      "Magnetic quick-release faceplate for effortless photo switching",
+      "Laser-chamfered glowing crystal border that acts as an ambient wall sconce",
+      "High-definition backlit duratrans film printing for photographic realism",
+      "Safe 12V DC power with concealed wiring and optional touch dimmer switch",
+      "Desktop kickstand and wall-hanging landscape/portrait mounts"
+    ],
+    specs: [
+      { label: "Front / Back Material", value: "3mm + 5mm Cast Acrylic with Diamond Polished Edges" },
+      { label: "Overall Thickness", value: "10mm to 14mm Slim Body" },
+      { label: "Illumination", value: "Micro Edge-Lit LEDs with 95+ Color Rendering Index" },
+      { label: "Power Supply", value: "12V DC Adapter (Included)" },
+      { label: "Sizes Available", value: "6x8\", 8x10\", 8x12\" (A4), 12x18\", 16x24\", 20x30\", 24x36\"" }
+    ],
+    applications: [
+      "Family & Wedding Glowing Portrait Displays",
+      "Medical Clinics, Dental Studios & Doctor Degree Certificates",
+      "Luxury Hotel Guest Rooms, Suites & Corridor Artworks",
+      "Jewellery Showroom Countertop Close-Up Product Visuals",
+      "Executive Desk Milestone Plaques & Recognition Displays"
+    ]
+  },
+  {
+    id: "photo-frames",
+    slug: "photo-frames",
+    title: "Custom Photo Frames & Wall Framing",
+    shortDesc: "Handcrafted wooden, composite, and acrylic photo frames, gallery wall collages, diploma framing, and canvas stretching with archival glass.",
+    fullDesc: "Complete custom framing and display solutions crafted at our Patna workshop. Whether you require a single family portrait framed in natural seasoned oak wood, an entire 15-frame grid gallery wall for a corporate office, or conservation framing for original art and diplomas, our master framers provide precision miter joints, acid-free bevel mats, and crystal-clear float glass.",
+    image: "/assets/services/photo-frames.jpg",
+    badge: "Master Craftsmanship",
+    priceRange: "₹150 - ₹3,500 per frame",
+    turnaround: "1 - 3 Business Days",
+    features: [
+      "Over 100+ designer moulding profiles: Natural Teak, Oak, Matte Black, White, Gold Filigree",
+      "Precision 45-degree hydraulic miter cuts with reinforced corner V-nails",
+      "Acid-free archival mat boards (single, double, and floating mat styles)",
+      "Choice of 2mm ultra-clear float glass or shatterproof acrylic glazing",
+      "Modular collage templates and paper hanging stencils for easy wall layout",
+      "Heavy-duty D-rings, coated steel picture wire, and wall anchor hardware included"
+    ],
+    specs: [
+      { label: "Moulding Materials", value: "Natural Seasoned Hardwood / High-Density PS Moulding" },
+      { label: "Glazing", value: "2mm Clear Float Glass / 2mm Anti-Glare Cast Acrylic" },
+      { label: "Mat Board", value: "300 GSM Acid-Free Cotton Rag Matting with 45° Bevel Cut" },
+      { label: "Backing", value: "3mm Rigid MDF Board with Flexi-Pins & Swivel Tabs" },
+      { label: "Standard Sizes", value: "4x6\" up to 40x60\" Large Format Gallery Framing" }
+    ],
+    applications: [
+      "Living Room & Staircase Gallery Collage Walls",
+      "Corporate Office Executive Portraits & Mission Statement Displays",
+      "School, College & Professional Degree / Diploma Certificate Framing",
+      "Oil Paintings, Canvas Art & Fine Art Prints",
+      "Hotel Reception, Corridors & Restaurant Interior Wall Art"
+    ]
+  },
+  {
+    id: "backlit-fabric",
+    slug: "backlit-fabric",
+    title: "Frameless Backlit Fabric Lightbox (SEG)",
+    shortDesc: "Ultra-slim frameless silicone edge graphic (SEG) textile lightboxes with high-definition dye-sublimation fabric prints and edge-lit LED matrix.",
+    fullDesc: "Deliver an ultra-sleek, modern museum-grade visual aesthetic with Frameless Backlit Fabric Lightboxes (SEG). Engineered with precision-extruded architectural aluminium profiles and high-output LED backlighting arrays, these lightboxes feature dye-sublimation printed stretch tension fabric with sewn silicone beading. The graphics insert seamlessly into the frame channel in under 60 seconds without tools or wrinkles, eliminating glare and delivering rich, vibrant, hotspot-free color reproduction.",
+    image: "/assets/services/backlit-fabric.jpg",
+    badge: "Frameless Textile",
+    priceRange: "₹550 - ₹1,400 per sq. ft.",
+    turnaround: "3 - 5 Business Days",
+    features: [
+      "Seamless frameless appearance with invisible silicone edge beading (SEG)",
+      "High-density dye-sublimation fabric printing with deep saturated colors",
+      "Tool-free graphic change in under 1 minute — simply pull and insert new fabric",
+      "Even backlight matrix using Samsung/Osram wide-angle LED modules",
+      "Glare-free, reflection-free matte fabric ideal for high-end photography displays",
+      "Ultra-compact transport: fabric graphics fold into small lightweight packages"
+    ],
+    specs: [
+      { label: "Profile Depth", value: "40mm / 60mm / 80mm / 100mm Extruded Aluminium" },
+      { label: "Fabric Type", value: "220 GSM Polyester Backlit Stretch Textile (Crease-Free)" },
+      { label: "Printing Tech", value: "High-Definition Dye-Sublimation (1440 DPI)" },
+      { label: "Lighting System", value: "High-Efficiency Edge-lit or Backlit LED Grid (6500K)" },
+      { label: "Standard Sizes", value: "Custom fabricated up to 10ft x 50ft seamless spans" }
+    ],
+    applications: [
+      "Luxury Apparel & Fashion Brand Flagship Stores",
+      "Jewellery & Watch Boutique Showroom Walls",
+      "Automobile Dealership Showroom Backdrops",
+      "Corporate Headquarters & Reception Focal Walls",
+      "Exhibition & Trade Fair Modular Display Booths"
+    ]
+  },
+  {
+    id: "roll-up-standees",
+    slug: "roll-up-standees",
+    title: "Roll-Up Standees, Gazebos & Promo Displays",
+    shortDesc: "Portable roll-up standees, luxury chrome banner stands, promotional folding gazebos, canopy tents, and sampling demo tables.",
+    fullDesc: "Accelerate your field marketing, outdoor activations, and exhibition presence across Bihar and Jharkhand with our comprehensive range of portable promotional displays. Patna Signage manufactures and prints heavy-duty roll-up standees (luxury wide-base chrome and standard aluminium), outdoor folding event gazebos (6x6 ft, 8x8 ft, 10x10 ft), promotional demo tables, and pop-up backdrop walls. Printed on non-tearable blackout poly media and water-repellent 600D fabric.",
+    image: "/assets/services/backlit-fabric.jpg",
+    badge: "Portable POS",
+    priceRange: "From ₹450 / standee • ₹3,500 / gazebo",
+    turnaround: "Same Day / 24 Hours",
+    features: [
+      "Standard and luxury wide-base chrome retractable roll-up banner stands",
+      "Heavy-duty scissors-frame folding promotional gazebos with custom printed valance",
+      "Non-tearable high-opacity blackout synthetic media preventing light bleed-through",
+      "High-definition 1440 DPI digital eco-solvent printing with vibrant UV durability",
+      "Portable knockdown demo tables and promoter sampling counters with carry bags",
+      "Padded canvas carrying bags included with every standee and display unit"
+    ],
+    specs: [
+      { label: "Standee Sizes", value: "2ft x 5ft, 2.5ft x 6ft, 3ft x 6ft, 4ft x 6ft, 5ft x 8ft" },
+      { label: "Gazebo Sizes", value: "4x4 ft, 6x6 ft, 8x8 ft, 10x10 ft Heavy GI/Aluminium Frame" },
+      { label: "Print Substrate", value: "240 Micron Non-Tear Poly Film / 600D Waterproof Oxford" },
+      { label: "Base Hardware", value: "Anodized Heavy Aluminium / Chrome Plated End Caps" },
+      { label: "Portability", value: "Padded Oxford Carrying Bag with Shoulder Strap" }
+    ],
+    applications: [
+      "Corporate Conferences, Medical Seminars & Hotel Summits",
+      "Rural Roadshows & Product Launch Field Activations",
+      "Banking & Insurance Branch Promotion Stalls (SBI, LIC)",
+      "University Convocations & Educational Education Expos",
+      "Trade Fairs, Shopping Mall Atriums & Retail Pop-ups"
+    ]
+  },
+  {
+    id: "pylon-totem",
+    slug: "pylon-totem",
+    title: "Highway Pylon & Monolith Totem Signs",
+    shortDesc: "Freestanding architectural roadside totems, highway pylon towers, campus monoliths, and fuel pump directional pylons with structural engineering.",
+    fullDesc: "Command the skyline and capture long-distance highway attention with our engineered Pylon and Monolith Totem Signs. Custom-built at our Patna facility using heavy-gauge structural steel frameworks, deep concrete foundation anchor cages, weather-sealed ACP or aluminium cladding, and push-through 3D illuminated letters. Engineered to withstand high monsoon wind loads and severe outdoor conditions across Bihar and Jharkhand.",
+    image: "/assets/services/pylon-totem.jpg",
+    badge: "Structural Landmark",
+    priceRange: "Custom Engineering Project",
+    turnaround: "7 - 14 Business Days",
+    features: [
+      "Certified structural engineering resisting up to 140 km/h wind gusts",
+      "Heavy-duty IS 2062 structural steel internal truss framework and base plates",
+      "Double-sided high-visibility illumination using IP68 Samsung LED modules",
+      "Optional digital LED fuel pricing panels or programmable scrolling LED displays",
+      "Turnkey site excavation, RCC foundation civil work, and crane-assisted erection",
+      "PVDF-coated aluminium cladding ensuring 10+ years rust and fade protection"
+    ],
+    specs: [
+      { label: "Height Range", value: "10 Feet to 45 Feet Freestanding Structural Tower" },
+      { label: "Skeleton Frame", value: "Heavy Galvanized Iron (GI) / Mild Steel (MS) Truss" },
+      { label: "Cladding Material", value: "4mm Fire-Retardant PVDF ACP (Alstone/Aludecor)" },
+      { label: "Illumination", value: "Internal High-Lumen Samsung LED Matrix with Surge Protection" },
+      { label: "Civil Foundation", value: "Engineered RCC Footing with M20/M25 Concrete & Anchor Bolts" }
+    ],
+    applications: [
+      "Highway Petrol Pumps & Energy Retail Plazas (IOCL, BPCL, HPCL)",
+      "Shopping Malls, Commercial Complexes & Cinema Multiplexes",
+      "Multispeciality Hospital Campuses & Medical Colleges",
+      "Automobile Dealership High-Street Displays",
+      "Industrial Parks & Corporate Headquarters Entrances"
+    ]
+  },
+  {
+    id: "safety-signs",
+    slug: "safety-signs",
+    title: "Industrial Safety Signs & Retroreflective Boards",
+    shortDesc: "3M retroreflective vinyl on ACP substrates, photoluminescent glow-in-the-dark fire safety signs, and hazard warning signboards.",
+    fullDesc: "Ensure statutory compliance and workplace protection with Patna Signage's industrial safety and reflective signage solutions. Manufactured strictly in accordance with NBC (National Building Code), OSHA, and ISO 7010 international standards. We utilize genuine 3M Engineer Grade and Diamond Grade retroreflective sheeting, phosphorescent photo-luminescent emergency glow films, and rigid ACP substrates resistant to chemical vapors, moisture, and high heat.",
+    image: "/assets/services/safety-signs.jpg",
+    badge: "ISO & NBC Standard",
+    priceRange: "₹120 - ₹850 per unit",
+    turnaround: "1 - 3 Business Days",
+    features: [
+      "Genuine 3M Engineer Grade (Class A) & High-Intensity Prismatic (Class B/C) Vinyl",
+      "Photoluminescent glow-in-the-dark film providing 4+ hours emergency visibility",
+      "Non-corrosive ACP (Aluminium Composite) and 20-gauge GI sheet backing boards",
+      "Strict compliance with ISO 7010, NBC 2016, and Directorate of Factory Safety norms",
+      "UV-protective clear overlaminate shielding against harsh sunlight, solvents, and rain",
+      "Comprehensive catalog: Fire Exit, Mandatory PPE, Danger High Voltage, Chemical Hazard"
+    ],
+    specs: [
+      { label: "Substrate", value: "3mm Fire-Retardant ACP / 1.2mm Galvanized Iron (GI)" },
+      { label: "Reflective Film", value: "3M Commercial & Prismatic Retroreflective Vinyl" },
+      { label: "Glow Film", value: "Class C Photoluminescent Zinc Sulphide / Strontium Aluminate" },
+      { label: "Compliance Standard", value: "ISO 7010, IS:9457 & NBC Part 4 Norms" },
+      { label: "Mounting Options", value: "Pre-drilled mounting holes / 3M VHB industrial tape" }
+    ],
+    applications: [
+      "Manufacturing Plants, Steel Mills & Warehousing Logistics Hubs",
+      "Multispeciality Hospitals, ICUs & Emergency Evacuation Corridors",
+      "Construction Infrastructure Sites (L&T, Metro Rail, Highway Projects)",
+      "Commercial High-Rise Offices, Stairwells & Basements",
+      "Petrol Pumps, Chemical Refineries & LPG Bottling Facilities"
+    ]
+  },
+  {
+    id: "moulded-flanges",
+    slug: "moulded-flanges",
+    title: "Double-Sided Moulded Flanges & Projection Signs",
+    shortDesc: "Vacuum-formed double-sided projecting wall signs with 3D embossed acrylic faces, heavy steel brackets, and uniform internal LED glow.",
+    fullDesc: "Capture foot traffic walking from both directions along busy commercial streets and market lanes. Our Double-Sided Moulded Flange Signs (also known as projecting blade signs or lollipop signs) feature thermoformed vacuum-moulded acrylic faces with raised 3D logos, mounted in heavy-gauge powder-coated steel side brackets. Evenly illuminated with high-brightness waterproof LED modules to serve as an unmistakable street beacon day and night.",
+    image: "/assets/services/glow-sign-boards.jpg",
+    badge: "Double-Sided Glow",
+    priceRange: "₹1,200 - ₹4,500 per unit",
+    turnaround: "2 - 4 Business Days",
+    features: [
+      "Dual-sided visibility projecting perpendicular to shop facade",
+      "Vacuum thermoformed optical acrylic faces with embossed 3D logo contour",
+      "Heavy MS/GI wall-mounting bracket engineered to withstand high wind shear",
+      "Internal Samsung waterproof LED modules with 360-degree uniform diffusion",
+      "Rust-proof electrostatic polyester powder coating on metal bracket and frame",
+      "Round, square, capsule, oval, and bespoke contour shapes available"
+    ],
+    specs: [
+      { label: "Standard Shapes", value: "Circular (18\", 24\", 30\", 36\"), Square, Capsule, Custom" },
+      { label: "Face Material", value: "3mm High-Impact Thermoformed Optical Cast Acrylic" },
+      { label: "Bracket Metal", value: "Heavy Galvanized Iron with Anti-Rust Powder Coating" },
+      { label: "Lighting", value: "Internal IP67 Waterproof LED Modules (6500K / Custom)" },
+      { label: "Wind Rating", value: "Tested for high-vibration roadside and high-wind placement" }
+    ],
+    applications: [
+      "Pharmacies & 24/7 Medical Stores (Green Cross Flanges)",
+      "Cafes, Bakeries & Quick-Service Food Outlets",
+      "Telecom, Mobile Repair & Electronics Showrooms",
+      "Banks, Financial ATMs & Foreign Exchange Desks",
+      "Boutiques & Salons in Dense Shopping Streets (Boring Rd, Fraser Rd)"
+    ]
+  },
+  {
+    id: "uv-flatbed-printing",
+    slug: "uv-flatbed-printing",
+    title: "Direct UV Flatbed Printing (Sunboard, Acrylic & Glass)",
+    shortDesc: "Direct-to-substrate digital UV flatbed printing on sunboard, acrylic, ACP, glass, ceramic, wood, and metal with instant LED-curing.",
+    fullDesc: "Revolutionize your retail visual merchandising and interior architectural decor with our direct UV Flatbed Printing technology in Patna. Eliminating the bubbling, peeling, and manual pasting issues of traditional vinyl, our state-of-the-art flatbed printer prints directly onto rigid substrates up to 100mm thick. Features instant ultraviolet LED curing, microscopic droplet precision, and opaque white ink printing for striking multi-layer textured effects on clear and dark substrates.",
+    image: "/assets/services/digital-flex-printing.jpg",
+    badge: "Direct Substrate UV",
+    priceRange: "₹45 - ₹180 per sq. ft.",
+    turnaround: "1 - 2 Business Days",
+    features: [
+      "Direct printing on rigid sheets: Sunboard (Foam board), Acrylic, Glass, Wood, ACP",
+      "Instant LED UV light curing — ink dries instantly with zero smudging",
+      "White ink circulation system for brilliant opacity on transparent acrylic and glass",
+      "Embossed tactile 3D varnish and spot gloss effects for luxury tactile branding",
+      "Zero peeling, bubbling, or delamination compared to traditional pasted vinyl",
+      "Environmentally safe, low-VOC UV inks with 5+ years exterior fade resistance"
+    ],
+    specs: [
+      { label: "Bed Size", value: "8ft x 4ft (2500mm x 1300mm) Large Flatbed Area" },
+      { label: "Max Thickness", value: "Up to 100mm (4 inches) Substrate Clearance" },
+      { label: "Printheads", value: "Industrial Ricoh Gen5 / Toshiba Micro-Piezo Heads" },
+      { label: "Color Channels", value: "CMYK + Double White (W) + Clear Varnish (V)" },
+      { label: "Compatible Media", value: "Sunboard, Acrylic, Glass, MDF, ACP, Leather, Metal Sheet" }
+    ],
+    applications: [
+      "Direct Sunboard Promotional Cut-Outs & Standees",
+      "Luxury Acrylic Reception Logos & Backlit Wall Panels",
+      "Architectural Printed Glass Partitions & Splashbacks",
+      "Wooden Plaques, Custom Corporate Gift Printing & Art Tiles",
+      "Retail In-Store POS Merchandising Trays & Product Headers"
+    ]
+  },
+  {
+    id: "packaging-boxes",
+    slug: "packaging-boxes",
+    title: "Commercial Packaging Boxes & Mono Cartons",
+    shortDesc: "Custom printed product packaging boxes, mono cartons, corrugated shipping mailers, luxury rigid boxes, and cosmetic cartons with spot UV.",
+    fullDesc: "Give your manufactured products retail shelf appeal and protective structural packaging. Patna Signage designs, prints, and die-punches commercial packaging boxes right here in Patna. From high-speed FMCG mono cartons printed on food-grade SBS paperboard and pharmaceutical carton packaging to rigid luxury magnetic boxes and branded corrugated e-commerce mailers. Finished with gold foiling, drip-off UV textures, and precision window die-cuts.",
+    image: "/assets/services/offset-printing.jpg",
+    badge: "Custom Packaging",
+    priceRange: "From ₹3.50 / box (Bulk production runs)",
+    turnaround: "4 - 7 Business Days",
+    features: [
+      "Custom structural box CAD dielines engineered for your specific product shape",
+      "High-speed 4-color and 5-color offset printing on SBS, Cyber XL, and Duplex board",
+      "Luxury finishing options: Metallic foil stamping, thermal matte lamination, spot UV",
+      "Automatic die-cutting, embossing, and high-speed robotic carton folding & gluing",
+      "Rigid magnetic closure presentation boxes with custom EVA foam inserts",
+      "Food-grade and pharmaceutical-compliant certified ink formulations"
+    ],
+    specs: [
+      { label: "Paperboard Substrates", value: "250 GSM to 450 GSM Virgin SBS Board, FBB, Greyback Duplex" },
+      { label: "Rigid Box Options", value: "1.5mm to 3mm Kappa Board with Coated Art Paper Wrapping" },
+      { label: "Corrugated Options", value: "3-Ply & 5-Ply E-Flute / B-Flute Printed Shipping Mailers" },
+      { label: "Special Finishes", value: "Gold / Rose Gold / Holographic Foiling, Spot UV, Blind Debossing" },
+      { label: "Production Scale", value: "1,000 units to 5,00,000+ commercial production volumes" }
+    ],
+    applications: [
+      "Pharmaceutical Medicine & Syrup Mono Cartons",
+      "Cosmetics, Perfumes & Personal Care Packaging",
+      "Sweet, Bakery & Food Gift Hampers and Mithai Boxes",
+      "Electronics, Mobile Accessories & Hardware Retail Boxes",
+      "Corporate Gift Rigid Boxes with Custom Foam Inserts"
+    ]
   }
 ];
 
@@ -434,11 +929,11 @@ export const signageTypes = [
   },
   {
     id: "neon-flex",
-    name: "LED Neon Flex Signs",
-    category: "Trendy & Interior",
+    name: "LED Neon Flex Signs & Neon Art",
+    category: "Neon & Creative",
     image: "/assets/services/neon-flex.jpg",
-    desc: "Custom decorative quotes, brand logos, and vibrant glowing art for cafes, bars & lounges.",
-    specs: "Silicone Neon Tube • 12V Safe Voltage • 8mm Transparent Base",
+    desc: "Custom decorative quotes, brand logos, and vibrant glowing art for cafes, bars, weddings & bedrooms.",
+    specs: "Silicone Neon Tube • 12V Safe Voltage • 8mm Cast Acrylic Base",
     price: "From ₹350 / letter"
   },
   {
@@ -469,13 +964,22 @@ export const signageTypes = [
     price: "From ₹3,500 / set"
   },
   {
-    id: "slim-clipon-led",
-    name: "Ultra-Slim Clip-On LED Frames",
-    category: "Indoor / Display",
-    image: "/assets/services/corporate-signage.jpg",
-    desc: "Snap-frame clip-on light boxes from A4 to A0 sizes, sandwich acrylic frames, and smart LED mirrors.",
-    specs: "15mm Slim Aluminum Profile • Laser Dot Matrix LGP • Edge LEDs",
+    id: "clipon-board",
+    name: "LED Clip-On Snap Frame Boards",
+    category: "Frames & Lightboxes",
+    image: "/assets/services/clipon-boards.jpg",
+    desc: "Ultra-thin aluminum snap-frame lightboxes for 30-second poster updates, restaurant menus, and retail graphics.",
+    specs: "15mm Slim Anodized Profile • Dot-Matrix LGP • A4 to A0 Sizes",
     price: "From ₹850 / frame"
+  },
+  {
+    id: "slim-photo-frame",
+    name: "Ultra-Slim Backlit LED Photo Frames",
+    category: "Frames & Lightboxes",
+    image: "/assets/services/slim-photo-frames.jpg",
+    desc: "Magnetic frameless and beveled edge-lit acrylic photo frames with ambient wall halo for portraits and diplomas.",
+    specs: "12mm Slim Acrylic Sandwich • High-CRI 95+ LEDs • 12V DC Safe",
+    price: "From ₹650 / frame"
   },
   {
     id: "moulded-flanges",
@@ -557,6 +1061,69 @@ export const signageTypes = [
     desc: "Branded glass manifestations, frosted office privacy films, vehicle fleet graphics, and laminated decals.",
     specs: "3M / Avery Vinyl • Matte/Gloss Lamination • Contour Cut",
     price: "From ₹25 / sq. ft."
+  },
+  {
+    id: "corporate-mementos",
+    name: "Corporate Mementos & Felicitation Plaques",
+    category: "Awards & Mementos",
+    image: "/assets/services/corporate-mementos.jpg",
+    desc: "Handcrafted wooden, brass, and acrylic appreciation shields and institutional mementos with laser engraving.",
+    specs: "Polished Teakwood/MDF • Anodized Brass Crest • Velvet Presentation Box",
+    price: "From ₹250 / unit"
+  },
+  {
+    id: "sports-trophies",
+    name: "Sports & Championship Trophies",
+    category: "Awards & Trophies",
+    image: "/assets/services/sports-trophies.jpg",
+    desc: "Heavy gold & silver electroplated tournament cups, multi-tier column trophies, and personalized medals.",
+    specs: "Spun Metal Cups • Black Marble Plinth • 6\" to 48\" Grand Heights",
+    price: "From ₹120 / unit"
+  },
+  {
+    id: "customize-trophies",
+    name: "Customize 3D Metal & Acrylic Trophies",
+    category: "Awards & Trophies",
+    image: "/assets/services/custom-trophies.jpg",
+    desc: "100% custom-designed 3D trophies manufactured to your exact logo and geometric silhouette with fiber laser precision.",
+    specs: "SS 304 + Cast Acrylic • 3D CAD Mockup • ±0.1mm Precision Machining",
+    price: "From ₹450 / unit"
+  },
+  {
+    id: "crystal-awards",
+    name: "K9 Optical Crystal Awards & Glass Trophies",
+    category: "Awards & Luxury",
+    image: "/assets/services/crystal-awards.jpg",
+    desc: "Diamond-faceted K9 optical crystal trophies with internal 3D laser subsurface etching and mirror reflection.",
+    specs: "High-Density K9 Crystal • 3D Subsurface Laser • Satin Gift Case",
+    price: "From ₹650 / unit"
+  },
+  {
+    id: "photo-frames",
+    name: "Custom Wall & Tabletop Photo Frames",
+    category: "Frames & Displays",
+    image: "/assets/services/photo-frames.jpg",
+    desc: "Designer wooden and composite moulding frames, gallery wall collages, bevel matting, and archival float glass.",
+    specs: "100+ Mouldings • Acid-free Bevel Mat • Float Glass Glazing",
+    price: "From ₹150 / frame"
+  },
+  {
+    id: "uv-flatbed",
+    name: "Direct UV Flatbed Printing (Sunboard & Acrylic)",
+    category: "Printing & Media",
+    image: "/assets/services/digital-flex-printing.jpg",
+    desc: "Direct UV flatbed printing on rigid sunboard, acrylic, glass, and wood with white ink and 3D textured varnish.",
+    specs: "8ft x 4ft Flatbed • CMYK + White + Varnish • Instant LED Cure",
+    price: "From ₹45 / sq. ft."
+  },
+  {
+    id: "packaging-boxes",
+    name: "Commercial Packaging Boxes & Mono Cartons",
+    category: "Printing & Media",
+    image: "/assets/services/offset-printing.jpg",
+    desc: "Custom printed product packaging boxes, mono cartons, pharmaceutical packaging, and luxury rigid gift boxes.",
+    specs: "250-450 GSM SBS / Kappa Board • Offset CMYK • Spot UV & Foiling",
+    price: "From ₹3.50 / unit"
   }
 ];
 
@@ -650,6 +1217,42 @@ export const portfolioProjects = [
     image: "/assets/services/acp-signage.jpg",
     desc: "Large-format exterior structural ACP cladding with push-through acrylic lettering, regulatory bilingual safety signage, and training hall branding.",
     clientType: "BFSI & Public Sector Insurance"
+  },
+  {
+    id: 11,
+    title: "Bihar State Sports Meet & University Convocations",
+    category: "Awards & Trophies",
+    location: "Moin-ul-Haq Stadium & Patna University",
+    image: "/assets/services/sports-trophies.jpg",
+    desc: "Bespoke championship gold-plated trophies, laser-etched K9 crystal awards, and polished teakwood mementos for state athletic honors and annual convocations.",
+    clientType: "State Sports & Higher Education"
+  },
+  {
+    id: 12,
+    title: "The Velvet Lounge & Resto-Pub",
+    category: "Neon Art",
+    location: "Boring Road & Patliputra, Patna",
+    image: "/assets/services/neon-flex.jpg",
+    desc: "Custom 12V LED Neon Flex ambient typography, glowing angel wings photo backdrop, and aesthetic bar counter neon logos with multi-mode RF dimmer controllers.",
+    clientType: "Hospitality & Dining"
+  },
+  {
+    id: 13,
+    title: "Fraser Road Multi-Cuisine Food Court & QSR Outlets",
+    category: "Lightboxes",
+    location: "Fraser Road Commercial Hub, Patna",
+    image: "/assets/services/clipon-boards.jpg",
+    desc: "Modular ultra-slim A1 & A0 LED clip-on menu lightboxes with laser-etched LGPs and quick-snap poster frames for rapid menu updates.",
+    clientType: "Retail Food & Franchise"
+  },
+  {
+    id: 14,
+    title: "AIIMS Patna & Medical Faculty Executive Galleria",
+    category: "Framing & Displays",
+    location: "Phulwari Sharif, Patna",
+    image: "/assets/services/slim-photo-frames.jpg",
+    desc: "Ultra-slim edge-lit magnetic LED photo frames, doctor degree display panels, and archival wooden gallery wall collages with anti-glare museum glass.",
+    clientType: "Healthcare & Institutional"
   }
 ];
 

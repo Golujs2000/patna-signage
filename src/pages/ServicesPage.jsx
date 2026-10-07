@@ -1,13 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
   ArrowRight, CheckCircle2, ShieldCheck, Factory, Zap, 
-  Sparkles, Layers, Cpu, Compass 
+  Sparkles, Layers, Cpu, Compass, Filter
 } from 'lucide-react';
 import { servicesData, companyInfo } from '../data/signageData';
 import SEO from '../components/SEO';
 
 export default function ServicesPage() {
+  const [activeFilter, setActiveFilter] = useState('All Services');
+
+  const serviceCategories = [
+    'All Services', 
+    'Signage & Facades', 
+    'Trophies & Awards', 
+    'Frames & Lightboxes', 
+    'Display & POS',
+    'Neon & Trendy', 
+    'Commercial Printing'
+  ];
+
+  const filteredServices = servicesData.filter((s) => {
+    if (activeFilter === 'All Services') return true;
+    if (activeFilter === 'Signage & Facades') {
+      return ['led-signage', '3d-letters', 'acp-signage', 'glow-sign-boards', 'shop-front-signage', 'corporate-signage', 'pylon-totem', 'moulded-flanges', 'safety-signs'].includes(s.slug);
+    }
+    if (activeFilter === 'Trophies & Awards') {
+      return ['corporate-mementos', 'sports-trophies', 'customize-trophies', 'crystal-awards'].includes(s.slug);
+    }
+    if (activeFilter === 'Frames & Lightboxes') {
+      return ['clipon-boards', 'slim-photo-frames', 'photo-frames', 'backlit-fabric'].includes(s.slug);
+    }
+    if (activeFilter === 'Display & POS') {
+      return ['roll-up-standees', 'backlit-fabric'].includes(s.slug);
+    }
+    if (activeFilter === 'Neon & Trendy') {
+      return s.slug === 'neon-signs';
+    }
+    if (activeFilter === 'Commercial Printing') {
+      return ['offset-printing', 'flex-banner-printing', 'digital-flex-printing', 'vinyl-printing', 'uv-flatbed-printing', 'packaging-boxes'].includes(s.slug);
+    }
+    return true;
+  });
+
   const servicesSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -30,10 +65,10 @@ export default function ServicesPage() {
   return (
     <div className="space-y-16 pb-20">
       <SEO
-        title="Signage Manufacturing & Fabrication Services in Patna, Bihar"
-        description="End-to-end commercial signage fabrication in Patna. In-house CNC router grooving, laser metal cutting, channel letter bending, and IP67 Samsung LED illumination."
+        title="Signage, Trophies, Mementos & Custom Printing Services in Patna, Bihar"
+        description="End-to-end commercial signage, custom trophies, corporate mementos, crystal awards, LED clip-on frames, photo frames, and commercial printing in Patna. Direct factory facility."
         canonicalUrl="/services"
-        keywords="signage fabrication services patna, led board making patna, acp fabrication bihar, 3d channel letter bending, sign board installation patna"
+        keywords="signage fabrication services patna, trophies manufacturer patna, corporate mementos bihar, crystal awards patna, clipon board patna, photo frames patna, led board making patna"
         schema={servicesSchema}
       />
       
@@ -42,21 +77,40 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 border border-brand-red/20 text-brand-red text-xs font-bold uppercase mb-4">
             <Sparkles className="w-3.5 h-3.5 text-brand-gold" />
-            <span>Industrial Signage Capabilities</span>
+            <span>Industrial Signage & Fabrication Capabilities</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
-            Signage Fabrication & Branding Services
+            Signage, Trophies, Displays & Printing Services
           </h1>
           <p className="text-slate-600 text-sm sm:text-base mt-4 leading-relaxed font-normal">
-            From computerized 3D letter bending and precision CNC router cutting to complete retail facade structural cladding, we deliver end-to-end turnkey architectural branding in Bihar.
+            From computerized 3D letter bending and precision CNC router cutting to custom crystal awards, trophies, mementos, ultra-slim LED clip-on frames, and commercial offset printing in Bihar.
           </p>
+        </div>
+      </section>
+
+      {/* Filter Tabs */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-wrap items-center justify-center gap-2">
+          {serviceCategories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveFilter(cat)}
+              className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+                activeFilter === cat
+                  ? 'bg-brand-red text-white shadow-md shadow-brand-red/25'
+                  : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-slate-900'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
       </section>
 
       {/* Services Detailed Cards Grid */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {servicesData.map((service, index) => (
+          {filteredServices.map((service, index) => (
             <div
               key={service.slug}
               className="bg-white border border-slate-200/90 hover:border-brand-red/50 rounded-2xl overflow-hidden shadow-md hover:shadow-xl flex flex-col justify-between group transition-all duration-300 hover:-translate-y-1.5"

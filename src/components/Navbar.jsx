@@ -36,9 +36,8 @@ export default function Navbar() {
             <span className="text-slate-300">•</span>
             <span className="text-slate-600 font-medium">{companyInfo.subtitle}</span>
           </div>
-          <div className="flex items-center gap-3">
-            <span>Hours: {companyInfo.hours}</span>
-            <span className="text-slate-300">•</span>
+          <div className="flex items-center gap-2">
+            <span className="text-slate-400 font-medium hidden sm:inline">Direct Factory Hotlines:</span>
             <div className="flex items-center gap-1.5 font-bold">
               <Phone className="w-3.5 h-3.5 text-brand-red shrink-0" />
               <a 
@@ -98,33 +97,43 @@ export default function Navbar() {
                   </Link>
 
                   {/* Dropdown for each individual service */}
-                  <div className={`absolute top-full left-0 w-72 pt-2 transition-all duration-200 ${servicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2 pointer-events-none'}`}>
-                    <div className="bg-white border border-slate-200 rounded-xl shadow-2xl p-2.5">
-                      <div className="text-[11px] font-bold text-brand-red uppercase tracking-wider px-3 py-1.5 border-b border-slate-100">
-                        Our Specialized Services
+                  <div className={`absolute top-full -left-28 lg:-left-20 w-[600px] pt-2 transition-all duration-200 ${servicesOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2 pointer-events-none'}`}>
+                    <div className="bg-white border border-slate-200 rounded-2xl shadow-2xl p-3.5">
+                      <div className="flex items-center justify-between px-3 py-1.5 border-b border-slate-100 mb-2">
+                        <span className="text-[11px] font-extrabold text-brand-red uppercase tracking-wider">
+                          Our Manufacturing & Fabrication Services
+                        </span>
+                        <Link
+                          to="/services"
+                          className="text-[11px] text-slate-500 hover:text-brand-red font-semibold flex items-center gap-1"
+                        >
+                          <span>All Services</span>
+                          <ArrowRight className="w-3 h-3" />
+                        </Link>
                       </div>
-                      <div className="mt-1 space-y-1">
+                      <div className="grid grid-cols-2 gap-x-2 gap-y-1 max-h-[420px] overflow-y-auto pr-1">
                         {servicesData.map((s) => (
                           <Link
                             key={s.slug}
                             to={`/services/${s.slug}`}
-                            className={`block px-3 py-2 rounded-lg text-xs font-medium transition-all ${
+                            className={`block px-3 py-2 rounded-xl text-xs font-medium transition-all ${
                               location.pathname === `/services/${s.slug}`
                                 ? 'bg-brand-red text-white'
                                 : 'text-slate-700 hover:bg-slate-50 hover:text-brand-red'
                             }`}
                           >
-                            <div className="font-semibold">{s.title}</div>
+                            <div className="font-semibold truncate">{s.title}</div>
                             <div className={`text-[10px] truncate mt-0.5 ${location.pathname === `/services/${s.slug}` ? 'text-white/80' : 'text-slate-400'}`}>{s.badge}</div>
                           </Link>
                         ))}
                       </div>
-                      <div className="mt-2 pt-2 border-t border-slate-100 px-2">
+                      <div className="mt-2 pt-2 border-t border-slate-100 px-3 flex items-center justify-between">
+                        <span className="text-[11px] text-slate-500">Need custom specifications?</span>
                         <Link 
-                          to="/services" 
-                          className="text-[11px] text-brand-red hover:underline font-bold flex items-center justify-between"
+                          to="/contact" 
+                          className="text-[11px] text-brand-red hover:underline font-bold flex items-center gap-1"
                         >
-                          View All Services Overview
+                          Request Free Site Measurement & Quote
                           <ArrowRight className="w-3 h-3" />
                         </Link>
                       </div>

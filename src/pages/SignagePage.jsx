@@ -7,16 +7,28 @@ import SEO from '../components/SEO';
 export default function SignagePage() {
   const [activeFilter, setActiveFilter] = useState('All');
 
-  const categories = ['All', 'Outdoor', 'Indoor', 'Luxury', 'Standard', 'Printing & Media', 'Display & POS'];
+  const categories = [
+    'All', 
+    'Outdoor', 
+    'Indoor', 
+    'Awards & Trophies', 
+    'Frames & Displays', 
+    'Neon & Creative', 
+    'Printing & Media', 
+    'Luxury', 
+    'Standard'
+  ];
 
   const filteredTypes = signageTypes.filter((item) => {
     if (activeFilter === 'All') return true;
     if (activeFilter === 'Outdoor') return item.category.toLowerCase().includes('outdoor') || item.category.toLowerCase().includes('facade') || item.category.toLowerCase().includes('highway');
     if (activeFilter === 'Indoor') return item.category.toLowerCase().includes('indoor') || item.category.toLowerCase().includes('interior') || item.category.toLowerCase().includes('commercial');
+    if (activeFilter === 'Awards & Trophies') return item.category.toLowerCase().includes('award') || item.category.toLowerCase().includes('troph') || item.category.toLowerCase().includes('memento');
+    if (activeFilter === 'Frames & Displays') return item.category.toLowerCase().includes('frame') || item.category.toLowerCase().includes('clip-on') || item.category.toLowerCase().includes('lightbox') || item.category.toLowerCase().includes('display') || item.category.toLowerCase().includes('pos');
+    if (activeFilter === 'Neon & Creative') return item.category.toLowerCase().includes('neon') || item.category.toLowerCase().includes('creative') || item.category.toLowerCase().includes('trendy');
+    if (activeFilter === 'Printing & Media') return item.category.toLowerCase().includes('printing') || item.category.toLowerCase().includes('media');
     if (activeFilter === 'Luxury') return item.category.toLowerCase().includes('luxury') || item.category.toLowerCase().includes('architectural');
     if (activeFilter === 'Standard') return item.category.toLowerCase().includes('standard') || item.category.toLowerCase().includes('safety');
-    if (activeFilter === 'Printing & Media') return item.category.toLowerCase().includes('printing') || item.category.toLowerCase().includes('media');
-    if (activeFilter === 'Display & POS') return item.category.toLowerCase().includes('display') || item.category.toLowerCase().includes('pos');
     return true;
   });
 
@@ -37,10 +49,10 @@ export default function SignagePage() {
   return (
     <div className="space-y-16 pb-20">
       <SEO
-        title="Sign Board Types & Catalog | LED, Acrylic, ACP, SS Letters Patna"
-        description="Explore 10 commercial sign board types in Patna: LED 3D letters, ACP elevation cladding, SS 304 titanium, neon flex, and backlit lightboxes with factory prices."
+        title="Sign Board Catalog, Trophies, Mementos & Frames in Patna | Patna Signage"
+        description="Explore 20+ commercial visual branding formats in Patna: LED 3D letters, ACP facades, neon signs, trophies, mementos, crystal awards, clipon boards, and photo frames with factory prices."
         canonicalUrl="/signage"
-        keywords="led 3d letters patna, acp sign boards bihar, stainless steel letters patna, neon sign boards patna, sign board types, sign board rates bihar"
+        keywords="led 3d letters patna, neon sign boards patna, trophies manufacturer patna, corporate mementos bihar, crystal awards patna, clipon board patna, photo frames patna, signage company bihar"
         schema={signageSchema}
       />
       
