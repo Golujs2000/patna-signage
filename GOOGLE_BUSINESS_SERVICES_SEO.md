@@ -337,7 +337,7 @@ High-speed offset commercial packaging boxes in Patna. Custom printed mono carto
 - **Pricing:** Starting at ₹450 / standee • ₹3,500 / gazebo
 - **Description:**
 ```text
-Heavy-duty roll-up standees, luxury chrome banner stands, promotional folding gazebos, canopy tents & promoter sampling tables in Patna. Tear-proof blackout poly film with 1440 DPI digital eco-solvent printing. Same-day emergency dispatch.
+  Heavy-duty roll-up standees, luxury chrome banner stands, promotional folding gazebos, canopy tents & promoter sampling tables in Patna. Tear-proof blackout poly film with 1440 DPI digital eco-solvent printing. Same-day emergency dispatch.
 ```
 *Character Count:* **244 / 300 chars** ✅
 
